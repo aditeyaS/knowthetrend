@@ -5,12 +5,19 @@ import { TrendingUp } from "lucide-react";
 import React from "react";
 import { Link, NavLink } from "react-router";
 
-interface Props extends React.HTMLAttributes<HTMLDivElement> {}
+interface Props extends React.HTMLAttributes<HTMLDivElement> {
+  sourceText?: string;
+  sourceLink?: string;
+}
 
-export default function TopicsLayout({ ...props }: Props) {
+export default function TopicsLayout({
+  sourceText,
+  sourceLink,
+  ...props
+}: Props) {
   return (
-    <div className="px-20">
-      <div>
+    <div className="">
+      <div className="fixed bg-background left-0 right-0 px-20">
         <header className="flex justify-between py-1">
           <Link to={"/"}>
             <Button variant={"ghost"}>
@@ -32,7 +39,18 @@ export default function TopicsLayout({ ...props }: Props) {
           ))}
         </div>
       </div>
-      <div {...props} />
+      <div className="h-24" />
+      <div className="px-20" {...props} />
+      <footer className="py-10 flex justify-center">
+        <span className="text-sm text-muted-foreground">
+          Source:
+          <a href={sourceLink} target="_blank" className="ml-1">
+            <Button variant={"link"} className="p-0">
+              {sourceText}
+            </Button>
+          </a>
+        </span>
+      </footer>
     </div>
   );
 }
