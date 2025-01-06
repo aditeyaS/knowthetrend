@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import TopicsLayout from "../layout";
 import { ApiResponse, IMovie } from "./api-response";
-import { Star } from "lucide-react";
+import { ExternalLink, Star } from "lucide-react";
 import { getGenre } from "./get-genre";
 import GetDB from "@/config/get-db";
 
@@ -37,14 +37,19 @@ export default function Movie() {
               src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`}
             />
             <div className="space-y-1">
-              <span className="text-xl">
+              <a
+                className="group flex items-center gap-1 text-xl hover:underline underline-offset-4"
+                target="_blank"
+                href={`https://www.themoviedb.org/movie/${movie.id}`}
+              >
                 {movie.title}
                 {movie.original_title !== movie.title && (
-                  <span className="text-muted-foreground ml-1 font-light">
+                  <span className="text-muted-foreground font-light">
                     ({movie.original_title})
                   </span>
                 )}
-              </span>
+                <ExternalLink className="w-3 hidden group-hover:block" />
+              </a>
               <div className="flex items-center gap-4 text-sm">
                 <span className="flex items-center gap-1 text-primary">
                   <Star className="w-3" /> {movie.vote_average.toFixed(1)}

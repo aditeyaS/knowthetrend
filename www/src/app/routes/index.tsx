@@ -3,6 +3,7 @@ import Landing from "./landing";
 import NotFound from "./not-found";
 import Movie from "./topics/movie";
 import Tv from "./topics/tv";
+import Music from "./topics/music";
 
 const routes = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const routes = createBrowserRouter([
   {
     path: "/tv",
     element: <Tv />,
+  },
+  {
+    path: "/music",
+    element: <Music />,
   },
   {
     path: "*",

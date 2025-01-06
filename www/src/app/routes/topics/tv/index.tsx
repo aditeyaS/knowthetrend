@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Star } from "lucide-react";
+import { ExternalLink, Star } from "lucide-react";
 import TopicsLayout from "../layout";
 import { ApiResponse, ITv } from "./api-response";
 import { getGenre } from "./get-genre";
@@ -37,14 +37,19 @@ export default function Tv() {
               src={`https://image.tmdb.org/t/p/original/${s.poster_path}`}
             />
             <div className="space-y-1">
-              <span className="text-xl">
+              <a
+                className="group flex items-center gap-1 text-xl hover:underline underline-offset-4"
+                target="_blank"
+                href={`https://www.themoviedb.org/tv/${s.id}`}
+              >
                 {s.name}
                 {s.original_name !== s.name && (
-                  <span className="text-muted-foreground ml-1 font-light">
+                  <span className="text-muted-foreground font-light">
                     ({s.original_name})
                   </span>
                 )}
-              </span>
+                <ExternalLink className="w-3 hidden group-hover:block" />
+              </a>
               <div className="flex items-center gap-4 text-sm">
                 <span className="flex items-center gap-1 text-primary">
                   <Star className="w-3" /> {s.vote_average.toFixed(1)}

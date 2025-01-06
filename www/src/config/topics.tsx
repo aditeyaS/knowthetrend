@@ -29,7 +29,7 @@ const topics: Topic[] = [
   },
   {
     name: "Music",
-    path: "music",
+    path: "/music",
     icon: <Music />,
   },
   {
