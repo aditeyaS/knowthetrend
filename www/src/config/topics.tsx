@@ -3,6 +3,7 @@ import {
   Book,
   BookUser,
   Clapperboard,
+  Laugh,
   Music,
   Swords,
   Tv,
@@ -41,6 +42,11 @@ const topics: Topic[] = [
     name: "Manga",
     path: "/manga",
     icon: <BookUser />,
+  },
+  {
+    name: "Meme Templates",
+    path: "/meme-templates",
+    icon: <Laugh />,
   },
   {
     name: "Book",

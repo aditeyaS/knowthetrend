@@ -33,7 +33,7 @@ export default function Anime() {
         {animeList.map((anime) => (
           <div
             key={anime.mal_id}
-            className="group flex border p-2 rounded gap-4 hover:border-primary"
+            className="group flex items-start border p-2 rounded gap-4 hover:border-primary"
           >
             <img className="w-24" src={anime.images.jpg.image_url} />
             <div className="flex flex-col space-y-1">
