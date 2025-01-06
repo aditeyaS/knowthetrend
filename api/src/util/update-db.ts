@@ -1,6 +1,6 @@
 import fs from "fs/promises";
 
-type DB = "movie" | "tv" | "music";
+type DB = "movie" | "tv" | "music" | "anime" | "manga";
 
 export default async function UpdateDB(db: DB, jsonString: string) {
   const path = `../db/${db}.json`;
