@@ -1,9 +1,13 @@
+import { lazy } from "react";
 import { createBrowserRouter } from "react-router";
-import Landing from "./landing";
-import NotFound from "./not-found";
-import Movie from "./topics/movie";
-import Tv from "./topics/tv";
-import Music from "./topics/music";
+
+const Landing = lazy(() => import("./landing"));
+const NotFound = lazy(() => import("./not-found"));
+const Movie = lazy(() => import("./topics/movie"));
+const Tv = lazy(() => import("./topics/tv"));
+const Music = lazy(() => import("./topics/music"));
+const Anime = lazy(() => import("./topics/anime"));
+const Manga = lazy(() => import("./topics/manga"));
 
 const routes = createBrowserRouter([
   {
@@ -21,6 +25,14 @@ const routes = createBrowserRouter([
   {
     path: "/music",
     element: <Music />,
+  },
+  {
+    path: "/anime",
+    element: <Anime />,
+  },
+  {
+    path: "/manga",
+    element: <Manga />,
   },
   {
     path: "*",

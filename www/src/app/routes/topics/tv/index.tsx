@@ -26,19 +26,23 @@ export default function Tv() {
 
   return (
     <TopicsLayout
+      title="TV"
       sourceText="themoviedb"
       sourceLink="https://www.themoviedb.org/"
     >
       <div className="flex flex-col gap-2">
         {series.map((s) => (
-          <div key={s.id} className="flex border p-2 rounded gap-4">
+          <div
+            key={s.id}
+            className="group flex border p-2 rounded gap-4 hover:border-primary"
+          >
             <img
               className="w-24"
               src={`https://image.tmdb.org/t/p/original/${s.poster_path}`}
             />
             <div className="space-y-1">
               <a
-                className="group flex items-center gap-1 text-xl hover:underline underline-offset-4"
+                className="flex items-center gap-1 text-xl hover:underline underline-offset-4"
                 target="_blank"
                 href={`https://www.themoviedb.org/tv/${s.id}`}
               >

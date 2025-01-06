@@ -34,12 +34,12 @@ const topics: Topic[] = [
   },
   {
     name: "Anime",
-    path: "anime",
+    path: "/anime",
     icon: <Swords />,
   },
   {
     name: "Manga",
-    path: "manga",
+    path: "/manga",
     icon: <BookUser />,
   },
   {

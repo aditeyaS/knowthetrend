@@ -25,14 +25,21 @@ export default function Music() {
   }, []);
 
   return (
-    <TopicsLayout sourceText="last.fm" sourceLink="https://www.last.fm/home">
+    <TopicsLayout
+      title="Music"
+      sourceText="last.fm"
+      sourceLink="https://www.last.fm/home"
+    >
       <div className="grid grid-cols-2 gap-2">
         {tracks.map((track, index) => (
-          <div key={index} className="flex border p-2 rounded gap-4">
+          <div
+            key={index}
+            className="group flex border p-2 rounded gap-4 hover:border-primary"
+          >
             <img className="w-24" src={track.image[0]["#text"]} />
             <div className="flex flex-col space-y-1">
               <a
-                className="group text-xl flex items-center gap-1 hover:underline underline-offset-4"
+                className="text-xl flex items-center gap-1 hover:underline underline-offset-4"
                 href={track.url}
                 target="_blank"
               >
