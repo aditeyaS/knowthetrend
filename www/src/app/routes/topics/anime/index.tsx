@@ -3,6 +3,7 @@ import { ExternalLink, Star } from "lucide-react";
 import { AnimeResponse } from "../../../../../../shared/types";
 import GetDB from "@/config/get-db";
 import TopicsLayout from "../layout";
+import { Badge } from "@/components/ui/badge";
 
 export default function Anime() {
   const [animeResponse, setAnimeResponse] = useState<AnimeResponse>();
@@ -28,46 +29,42 @@ export default function Anime() {
       sourceText="jikan.moe"
       sourceLink="https://jikan.moe/"
     >
-      <div className="grid grid-cols-2 gap-5">
+      <div className="flex flex-col gap-5">
         {animeResponse?.data.map((anime, index) => (
-          <div
+          <a
             key={anime.id}
-            className="relative group flex items-start border p-5 rounded gap-4 hover:border-primary"
+            href={anime.url}
+            target="_blank"
+            className="relative  flex items-start border p-5 rounded gap-4 hover:border-primary"
           >
             <h1 className="absolute bg-primary p-1 rounded">#{index + 1}</h1>
-            <img className="w-24" src={anime.image} />
-            <div className="flex flex-col space-y-1">
-              <a
-                className="text-xl flex items-center gap-1 hover:underline underline-offset-4"
-                href={anime.url}
-                target="_blank"
-              >
+            <img className="h-full" src={anime.image} />
+            <div className="flex flex-col space-y-2">
+              <span className="text-xl flex items-center gap-1">
                 {anime.title}
                 <span className="text-muted-foreground font-light">
-                  ({anime.title_english})
+                  ({anime.title_japanese})
                 </span>
-                <ExternalLink className="w-3 hidden group-hover:block" />
-              </a>
+                <ExternalLink className="w-3 hidden " />
+              </span>
               <div className="flex items-center gap-4 text-sm">
                 <span className="flex items-center gap-1 text-primary">
                   <Star className="w-3" /> {anime.rating}
                 </span>
-                {/* <span>{anime.}</span> */}
               </div>
-              <p className="text-muted-foreground text-sm">
+              <p className="text-muted-foreground text-sm text-justify">
                 {anime.description}
               </p>
-
-              <div className="text-sm flex gap-1">
-                <span className="text-muted-foreground underline">Genre:</span>
+              <div className="text-sm flex flex-wrap items-center gap-1">
+                <span className="text-muted-foreground">Genre:</span>
                 {anime.genres.map((genre) => (
-                  <span key={`anime-${anime.id}-genre-${genre.id}`}>
+                  <Badge key={`anime-${anime.id}-genre-${genre.id}`}>
                     {genre.name}
-                  </span>
+                  </Badge>
                 ))}
               </div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </TopicsLayout>
