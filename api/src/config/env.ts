@@ -1,15 +1,21 @@
-export const TMDB_API_KEY = (): string => {
-  const apiKey = process.env.TMDB_API_KEY;
+function genEnv(key: string) {
+  const apiKey = process.env[key];
   if (!apiKey) {
-    throw new Error("❌ TMDB_API_KEY environment variable is not set.");
+    if (process.env.NODE_ENV === "development") {
+      console.warn(
+        `${key} is missing in .env. Will skip api's related with it.`
+      );
+    } else {
+      throw new Error(`❌ ${key} not found in the environment`);
+    }
   }
   return apiKey;
+}
+
+export const TMDB_API_KEY = () => {
+  return genEnv("TMDB_API_KEY");
 };
 
-export const LAST_FM_API_KEY = (): string => {
-  const apiKey = process.env.LAST_FM_API_KEY;
-  if (!apiKey) {
-    throw new Error("❌ LAST_FM_API_KEY environment variable is not set.");
-  }
-  return apiKey;
+export const LAST_FM_API_KEY = () => {
+  return genEnv("LAST_FM_API_KEY");
 };

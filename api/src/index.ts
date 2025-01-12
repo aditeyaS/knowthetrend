@@ -9,11 +9,15 @@ import Manga from "./topics/manga";
 
 async function main() {
   console.log("Start");
-  await Movie();
-  await Tv();
-  await Music();
-  await Anime();
-  await Manga();
+  if (process.env.NODE_ENV === "development") {
+    console.log("Dev mode");
+  } else {
+    await Anime();
+    await Manga();
+    await Movie();
+    await Tv();
+    await Music();
+  }
   console.log("Complete");
 }
 
