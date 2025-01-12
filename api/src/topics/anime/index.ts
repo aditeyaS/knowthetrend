@@ -1,5 +1,6 @@
-import { AnimeApiResponse, AnimeResponse } from "../../types/anime";
+import { AnimeResponse, Anime } from "../../../../shared/types";
 import UpdateDB from "../../util/update-db";
+import { ApiResponse } from "./ApiResponse";
 
 const url = `https://api.jikan.moe/v4/top/anime`;
 
@@ -10,24 +11,33 @@ export default async function Anime() {
       console.error("❌ Anime", response);
       return;
     }
-    const responseBody: AnimeApiResponse = await response.json();
-    let apiResponse: AnimeResponse[] = [];
-    responseBody.data.map((anime) => {
-      apiResponse.push({
-        id: anime.mal_id.toString(),
-        title: anime.title,
-        url: anime.url,
-        title_english: anime.title_english,
-        image: anime.images.jpg.image_url,
-        trailer: anime.trailer.url,
-        episodes: anime.episodes,
-        rating: anime.score,
-        year: anime.year,
-        description: anime.synopsis,
-        genres: [...anime.genres.map((g) => ({ id: g.mal_id, name: g.name }))],
+    const responseBody: ApiResponse = await response.json();
+    let animeList: Anime[] = [];
+    responseBody.data
+      .slice(0, Math.min(25, responseBody.data.length))
+      .map((anime) => {
+        animeList.push({
+          id: anime.mal_id.toString(),
+          title: anime.title,
+          url: anime.url,
+          title_english: anime.title_english,
+          title_japanese: anime.title_japanese,
+          image: anime.images.jpg.image_url,
+          trailer: anime.trailer.url,
+          episodes: anime.episodes,
+          rating: anime.score,
+          year: anime.year,
+          description: anime.synopsis,
+          genres: [
+            ...anime.genres.map((g) => ({ id: g.mal_id, name: g.name })),
+          ],
+        });
       });
-    });
-    await UpdateDB("anime", JSON.stringify(apiResponse));
+    const apiResponse: AnimeResponse = {
+      last_updated: new Date().toISOString(),
+      data: animeList,
+    };
+    await UpdateDB("anime", JSON.stringify(apiResponse, null, 2));
   } catch (error) {
     console.error("❌ Fetch failed:", error);
   }

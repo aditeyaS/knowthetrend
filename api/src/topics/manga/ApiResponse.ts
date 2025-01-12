@@ -1,26 +1,25 @@
 export interface ApiResponse {
   pagination: Pagination;
-  data: Anime[];
+  data: Manga[];
 }
 
-export interface Pagination {
+interface Pagination {
   last_visible_page: number;
   has_next_page: boolean;
   current_page: number;
   items: Items;
 }
 
-export interface Items {
+interface Items {
   count: number;
   total: number;
   per_page: number;
 }
 
-export interface Anime {
+interface Manga {
   mal_id: number;
   url: string;
   images: Images;
-  trailer: Trailer;
   approved: boolean;
   titles: Title[];
   title: string;
@@ -28,14 +27,13 @@ export interface Anime {
   title_japanese: string;
   title_synonyms: string[];
   type: string;
-  source: string;
-  episodes: number;
+  chapters?: number;
+  volumes?: number;
   status: string;
-  airing: boolean;
-  aired: Aired;
-  duration: string;
-  rating: string;
+  publishing: boolean;
+  published: Published;
   score: number;
+  scored: number;
   scored_by: number;
   rank: number;
   popularity: number;
@@ -43,122 +41,89 @@ export interface Anime {
   favorites: number;
   synopsis: string;
   background: string;
-  season?: string;
-  year?: number;
-  broadcast: Broadcast;
-  producers: Producer[];
-  licensors: Licensor[];
-  studios: Studio[];
+  authors: Author[];
+  serializations: Serialization[];
   genres: Genre[];
   explicit_genres: any[];
   themes: Theme[];
   demographics: Demographic[];
 }
 
-export interface Images {
+interface Images {
   jpg: Jpg;
   webp: Webp;
 }
 
-export interface Jpg {
+interface Jpg {
   image_url: string;
   small_image_url: string;
   large_image_url: string;
 }
 
-export interface Webp {
+interface Webp {
   image_url: string;
   small_image_url: string;
   large_image_url: string;
 }
 
-export interface Trailer {
-  youtube_id?: string;
-  url?: string;
-  embed_url?: string;
-  images: Images2;
-}
-
-export interface Images2 {
-  image_url?: string;
-  small_image_url?: string;
-  medium_image_url?: string;
-  large_image_url?: string;
-  maximum_image_url?: string;
-}
-
-export interface Title {
+interface Title {
   type: string;
   title: string;
 }
 
-export interface Aired {
+interface Published {
   from: string;
   to?: string;
   prop: Prop;
   string: string;
 }
 
-export interface Prop {
+interface Prop {
   from: From;
   to: To;
 }
 
-export interface From {
+interface From {
   day: number;
   month: number;
   year: number;
 }
 
-export interface To {
+interface To {
   day?: number;
   month?: number;
   year?: number;
 }
 
-export interface Broadcast {
-  day?: string;
-  time?: string;
-  timezone?: string;
-  string?: string;
-}
-
-export interface Producer {
+interface Author {
   mal_id: number;
   type: string;
   name: string;
   url: string;
 }
 
-export interface Licensor {
+interface Serialization {
   mal_id: number;
   type: string;
   name: string;
   url: string;
 }
 
-export interface Studio {
+interface Genre {
   mal_id: number;
   type: string;
   name: string;
   url: string;
 }
 
-export interface Genre {
+interface Theme {
   mal_id: number;
   type: string;
   name: string;
   url: string;
 }
 
-export interface Theme {
-  mal_id: number;
-  type: string;
-  name: string;
-  url: string;
-}
-
-export interface Demographic {
+interface Demographic {
   mal_id: number;
   type: string;
   name: string;

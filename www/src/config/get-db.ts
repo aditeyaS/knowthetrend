@@ -1,5 +1,5 @@
-type DB = "movie" | "tv" | "music" | "anime" | "manga";
+import { DB } from "../../../shared/types";
 
 export default function GetDB(db: DB) {
-  return `https://raw.githubusercontent.com/aditeyaS/knowthetrend/main/db/${db}.json`;
+  return `https://raw.githubusercontent.com/aditeyaS/trendinggg/main/db/${db}.json`;
 }
