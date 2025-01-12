@@ -13,7 +13,7 @@ export default async function Music() {
         console.error("❌ Music", responseBody.message);
         return;
       }
-      await UpdateDB("music", JSON.stringify(responseBody));
+      await UpdateDB("music", responseBody);
     } catch (error) {
       console.error("❌ Fetch failed:", error);
     }

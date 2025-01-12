@@ -1,4 +1,4 @@
-import { AnimeResponse, Anime } from "../../../../shared/types";
+import { AnimeResponse, Anime as IAnime } from "../../../../shared/types";
 import UpdateDB from "../../util/update-db";
 import { ApiResponse } from "./ApiResponse";
 
@@ -12,7 +12,7 @@ export default async function Anime() {
       return;
     }
     const responseBody: ApiResponse = await response.json();
-    let animeList: Anime[] = [];
+    let animeList: IAnime[] = [];
     responseBody.data
       .slice(0, Math.min(25, responseBody.data.length))
       .map((anime) => {
@@ -25,7 +25,7 @@ export default async function Anime() {
           image: anime.images.jpg.image_url,
           trailer: anime.trailer.url,
           episodes: anime.episodes,
-          rating: anime.score,
+          rating: anime.score.toFixed(1),
           year: anime.year,
           description: anime.synopsis,
           genres: [
@@ -37,7 +37,7 @@ export default async function Anime() {
       last_updated: new Date().toISOString(),
       data: animeList,
     };
-    await UpdateDB("anime", JSON.stringify(apiResponse, null, 2));
+    await UpdateDB("anime", apiResponse);
   } catch (error) {
     console.error("❌ Fetch failed:", error);
   }

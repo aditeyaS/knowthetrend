@@ -1,4 +1,4 @@
-import { MangaResponse, Manga } from "../../../../shared/types";
+import { MangaResponse, Manga as IManga } from "../../../../shared/types";
 import UpdateDB from "../../util/update-db";
 import { ApiResponse } from "./ApiResponse";
 
@@ -12,7 +12,7 @@ export default async function Manga() {
       return;
     }
     const responseBody: ApiResponse = await response.json();
-    let mangaList: Manga[] = [];
+    let mangaList: IManga[] = [];
     responseBody.data
       .slice(0, Math.min(25, responseBody.data.length))
       .map((manga) => {
@@ -23,7 +23,7 @@ export default async function Manga() {
           image: manga.images.jpg.image_url,
           title_english: manga.title_english,
           title_japanese: manga.title_japanese,
-          rating: manga.score,
+          rating: manga.score.toFixed(1),
           description: manga.synopsis,
           genres: [
             ...manga.genres.map((g) => ({ id: g.mal_id, name: g.name })),
@@ -34,7 +34,7 @@ export default async function Manga() {
       last_updated: new Date().toISOString(),
       data: mangaList,
     };
-    await UpdateDB("manga", JSON.stringify(apiResponse, null, 2));
+    await UpdateDB("manga", apiResponse);
   } catch (error) {
     console.error("❌ Fetch failed:", error);
   }

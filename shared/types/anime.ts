@@ -6,7 +6,7 @@ export interface Anime extends BaseResponse {
   title_japanese: string;
   trailer?: string;
   episodes: number;
-  rating: number;
+  rating: string;
   year?: number;
   genres: { id: number; name: string }[];
 }

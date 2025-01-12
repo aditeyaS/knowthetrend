@@ -12,8 +12,8 @@ function genEnv(key: string) {
   return apiKey;
 }
 
-export const TMDB_API_KEY = () => {
-  return genEnv("TMDB_API_KEY");
+export const TMDB_API_ACCESS_TOKEN = () => {
+  return genEnv("TMDB_API_ACCESS_TOKEN");
 };
 
 export const LAST_FM_API_KEY = () => {

@@ -1,8 +1,8 @@
 import fs from "fs/promises";
 import { DB } from "../../../shared/types";
 
-export default async function UpdateDB(db: DB, jsonString: string) {
+export default async function UpdateDB(db: DB, jsonObject: any) {
   const path = `../db/${db}.json`;
-  await fs.writeFile(path, jsonString, "utf-8");
+  await fs.writeFile(path, JSON.stringify(jsonObject, null, 2), "utf-8");
   console.log("✅ Updated: ", db);
 }

@@ -10,8 +10,8 @@ async function main() {
   if (process.env.NODE_ENV === "development") {
     console.log("Dev mode");
   } else {
-    await Manga();
     await Anime();
+    await Manga();
     await Movie();
     await Tv();
     await Music();
