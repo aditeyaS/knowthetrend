@@ -1,5 +1,4 @@
 import { GithubResponse, Github as IGithub } from "@shared/types";
-import fs from "fs/promises";
 import * as cheerio from "cheerio";
 import UpdateDB from "@/utils/update-db";
 

@@ -1,0 +1,437 @@
+{
+  "last_updated": "2025-01-13T08:04:35.712Z",
+  "data": [
+    {
+      "id": "0",
+      "title": "GitLab.org/gitlab-runner",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/250833/runner.png?width=48",
+      "description": "GitLab Runner is the open source project that is used to run your CI/CD jobs and send the results back to GitLab",
+      "namespace": "GitLab.org/",
+      "project": "gitlab-runner",
+      "url": "https://gitlab.com/gitlab-org/gitlab-runner",
+      "stars": "2.4k",
+      "forks": "2.3k",
+      "mergeRequests": "91",
+      "issues": "2.9k",
+      "topics": [
+        {
+          "name": "hacktoberfest",
+          "url": "https://gitlab.com/explore/projects/topics/hacktoberfest"
+        },
+        {
+          "name": "golang",
+          "url": "https://gitlab.com/explore/projects/topics/golang"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "title": "Tezos/tezos",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/3836952/latin_small_letter_tz.png?width=48",
+      "description": "",
+      "namespace": "Tezos/",
+      "project": "tezos",
+      "url": "https://gitlab.com/tezos/tezos",
+      "stars": "629",
+      "forks": "435",
+      "mergeRequests": "319",
+      "issues": "2.4k",
+      "topics": []
+    },
+    {
+      "id": "2",
+      "title": "F-Droid/fdroidserver",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/36527/ic_launcher.png?width=48",
+      "description": "Tools for managing builds, indexes, updates, and deployments for F-Droid repositories.",
+      "namespace": "F-Droid/",
+      "project": "fdroidserver",
+      "url": "https://gitlab.com/fdroid/fdroidserver",
+      "stars": "408",
+      "forks": "470",
+      "mergeRequests": "60",
+      "issues": "377",
+      "topics": [
+        {
+          "name": "Python",
+          "url": "https://gitlab.com/explore/projects/topics/python"
+        },
+        {
+          "name": "Android",
+          "url": "https://gitlab.com/explore/projects/topics/android"
+        },
+        {
+          "name": "apk",
+          "url": "https://gitlab.com/explore/projects/topics/apk"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "GitLab.org/GitLab Development Kit",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/74823/GDK-refresh-120.png?width=48",
+      "description": "Get started with GitLab Rails development using the GDK.",
+      "namespace": "GitLab.org/",
+      "project": "GitLab Development Kit",
+      "url": "https://gitlab.com/gitlab-org/gitlab-development-kit",
+      "stars": "730",
+      "forks": "848",
+      "mergeRequests": "57",
+      "issues": "481",
+      "topics": [
+        {
+          "name": "development",
+          "url": "https://gitlab.com/explore/projects/topics/development"
+        },
+        {
+          "name": "rails",
+          "url": "https://gitlab.com/explore/projects/topics/rails"
+        },
+        {
+          "name": "Ruby",
+          "url": "https://gitlab.com/explore/projects/topics/ruby"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "freedesktop-sdk/freedesktop-sdk",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/4339844/MM_freedesktop2-01__copy_.png?width=48",
+      "description": "A minimal Linux runtime",
+      "namespace": "freedesktop-sdk/",
+      "project": "freedesktop-sdk",
+      "url": "https://gitlab.com/freedesktop-sdk/freedesktop-sdk",
+      "stars": "232",
+      "forks": "296",
+      "mergeRequests": "87",
+      "issues": "161",
+      "topics": []
+    },
+    {
+      "id": "5",
+      "title": "GitLab.org/GitLab FOSS",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/13083/project_avatar.png?width=48",
+      "description": "GitLab FOSS is a read-only mirror of GitLab, with all proprietary code removed. This project was previously used to host GitLab Community Edition, but all development has now moved to https://gitlab.com/gitlab-org/gitlab.",
+      "namespace": "GitLab.org/",
+      "project": "GitLab FOSS",
+      "url": "https://gitlab.com/gitlab-org/gitlab-foss",
+      "stars": "7k",
+      "forks": "8.1k",
+      "mergeRequests": "1",
+      "issues": "0",
+      "topics": []
+    },
+    {
+      "id": "6",
+      "title": "GitLab.com / GitLab Infrastructure Team/Production Engineering",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/1304532/infrastructure-avatar.png?width=48",
+      "description": "Keep GitLab running and make it scale!",
+      "namespace": "GitLab.com / GitLab Infrastructure Team/",
+      "project": "Production Engineering",
+      "url": "https://gitlab.com/gitlab-com/gl-infra/production-engineering",
+      "stars": "225",
+      "forks": "125",
+      "mergeRequests": "",
+      "issues": "448",
+      "topics": []
+    },
+    {
+      "id": "7",
+      "title": "GitLab.org / release/tasks",
+      "image": "",
+      "description": "GitLab release tasks project, release managers issue tracker",
+      "namespace": "GitLab.org / release/",
+      "project": "tasks",
+      "url": "https://gitlab.com/gitlab-org/release/tasks",
+      "stars": "66",
+      "forks": "185",
+      "mergeRequests": "0",
+      "issues": "611",
+      "topics": []
+    },
+    {
+      "id": "8",
+      "title": "GitLab.org/gitaly",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/2009901/gitaly7.png?width=48",
+      "description": "Gitaly is a Git RPC service for handling all the git calls made by GitLab",
+      "namespace": "GitLab.org/",
+      "project": "gitaly",
+      "url": "https://gitlab.com/gitlab-org/gitaly",
+      "stars": "413",
+      "forks": "335",
+      "mergeRequests": "48",
+      "issues": "903",
+      "topics": [
+        {
+          "name": "Git",
+          "url": "https://gitlab.com/explore/projects/topics/git"
+        },
+        {
+          "name": "GitLab",
+          "url": "https://gitlab.com/explore/projects/topics/gitlab"
+        },
+        {
+          "name": "rpc",
+          "url": "https://gitlab.com/explore/projects/topics/rpc"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "GitLab.org/GitLab",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/278964/project_avatar.png?width=48",
+      "description": "GitLab is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab on your own servers, in a container, or on a cloud provider.",
+      "namespace": "GitLab.org/",
+      "project": "GitLab",
+      "url": "https://gitlab.com/gitlab-org/gitlab",
+      "stars": "5.4k",
+      "forks": "10.5k",
+      "mergeRequests": "2.2k",
+      "issues": "58.5k",
+      "topics": [
+        {
+          "name": "hacktoberfest",
+          "url": "https://gitlab.com/explore/projects/topics/hacktoberfest"
+        },
+        {
+          "name": "Ruby",
+          "url": "https://gitlab.com/explore/projects/topics/ruby"
+        },
+        {
+          "name": "Vue.js",
+          "url": "https://gitlab.com/explore/projects/topics/vue.js"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "GitLab.com/www-gitlab-com",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/7764/gitlab-logo-500.png?width=48",
+      "description": "Source for https://about.gitlab.com/This repo/project is for the public-facing marketing website of GitLab, including improvements to the docs and the handbook.Please file product improvement suggestions at https://gitlab.com/gitlab-org/gitlab",
+      "namespace": "GitLab.com/",
+      "project": "www-gitlab-com",
+      "url": "https://gitlab.com/gitlab-com/www-gitlab-com",
+      "stars": "1.1k",
+      "forks": "3.1k",
+      "mergeRequests": "2.1k",
+      "issues": "1.6k",
+      "topics": [
+        {
+          "name": "GitLab",
+          "url": "https://gitlab.com/explore/projects/topics/gitlab"
+        },
+        {
+          "name": "handbook",
+          "url": "https://gitlab.com/explore/projects/topics/handbook"
+        },
+        {
+          "name": "hacktoberfest",
+          "url": "https://gitlab.com/explore/projects/topics/hacktoberfest"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "F-Droid/Data",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/36528/ic_launcher.png?width=48",
+      "description": "Data for the main F-Droid repository at https://f-droid.org",
+      "namespace": "F-Droid/",
+      "project": "Data",
+      "url": "https://gitlab.com/fdroid/fdroiddata",
+      "stars": "1k",
+      "forks": "4.1k",
+      "mergeRequests": "92",
+      "issues": "90",
+      "topics": [
+        {
+          "name": "fdroid",
+          "url": "https://gitlab.com/explore/projects/topics/fdroid"
+        },
+        {
+          "name": "Android",
+          "url": "https://gitlab.com/explore/projects/topics/android"
+        },
+        {
+          "name": "apps",
+          "url": "https://gitlab.com/explore/projects/topics/apps"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "gnutls/GnuTLS",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/179611/gnutls-logo-nobackground.png?width=48",
+      "description": "GnuTLS is a secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them. It provides a simple C language API to access the secure communications protocols. https://www.gnutls.org",
+      "namespace": "gnutls/",
+      "project": "GnuTLS",
+      "url": "https://gitlab.com/gnutls/gnutls",
+      "stars": "309",
+      "forks": "346",
+      "mergeRequests": "32",
+      "issues": "326",
+      "topics": [
+        {
+          "name": "ssl",
+          "url": "https://gitlab.com/explore/projects/topics/ssl"
+        },
+        {
+          "name": "tls",
+          "url": "https://gitlab.com/explore/projects/topics/tls"
+        },
+        {
+          "name": "crypto",
+          "url": "https://gitlab.com/explore/projects/topics/crypto"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "recalbox/recalbox",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/2396494/recalbox-controller-only.png?width=48",
+      "description": "The Recalbox project. Retrogaming open source solution for Raspberry Pi, PC, Odroids, and Abernic.",
+      "namespace": "recalbox/",
+      "project": "recalbox",
+      "url": "https://gitlab.com/recalbox/recalbox",
+      "stars": "697",
+      "forks": "277",
+      "mergeRequests": "105",
+      "issues": "345",
+      "topics": [
+        {
+          "name": "retrogaming",
+          "url": "https://gitlab.com/explore/projects/topics/retrogaming"
+        },
+        {
+          "name": "os",
+          "url": "https://gitlab.com/explore/projects/topics/os"
+        },
+        {
+          "name": "Linux",
+          "url": "https://gitlab.com/explore/projects/topics/linux"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "GitLab.org / charts/GitLab Chart",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/3828396/docs-charts.png?width=48",
+      "description": "Cloud Native GitLab Helm Chart",
+      "namespace": "GitLab.org / charts/",
+      "project": "GitLab Chart",
+      "url": "https://gitlab.com/gitlab-org/charts/gitlab",
+      "stars": "421",
+      "forks": "699",
+      "mergeRequests": "64",
+      "issues": "786",
+      "topics": [
+        {
+          "name": "GitLab",
+          "url": "https://gitlab.com/explore/projects/topics/gitlab"
+        },
+        {
+          "name": "helm",
+          "url": "https://gitlab.com/explore/projects/topics/helm"
+        },
+        {
+          "name": "k8s",
+          "url": "https://gitlab.com/explore/projects/topics/k8s"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Inkscape/inkscape",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/3472737/inkscape.png?width=48",
+      "description": "Inkscape vector image editor",
+      "namespace": "Inkscape/",
+      "project": "inkscape",
+      "url": "https://gitlab.com/inkscape/inkscape",
+      "stars": "3.5k",
+      "forks": "1.6k",
+      "mergeRequests": "119",
+      "issues": "2.1k",
+      "topics": [
+        {
+          "name": "svg",
+          "url": "https://gitlab.com/explore/projects/topics/svg"
+        },
+        {
+          "name": "vectorgraphics",
+          "url": "https://gitlab.com/explore/projects/topics/vectorgraphics"
+        },
+        {
+          "name": "C++",
+          "url": "https://gitlab.com/explore/projects/topics/C%252B%252B"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "GitLab.org / Distribution/Team tasks",
+      "image": "",
+      "description": "GitLab Distribution Team public issue tracker.",
+      "namespace": "GitLab.org / Distribution/",
+      "project": "Team tasks",
+      "url": "https://gitlab.com/gitlab-org/distribution/team-tasks",
+      "stars": "20",
+      "forks": "78",
+      "mergeRequests": "1",
+      "issues": "367",
+      "topics": []
+    },
+    {
+      "id": "17",
+      "title": "GitLab.org/omnibus-gitlab",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/20699/Omnibus-refresh2.png?width=48",
+      "description": "This project creates full-stack platform-specific downloadable packages for GitLab.",
+      "namespace": "GitLab.org/",
+      "project": "omnibus-gitlab",
+      "url": "https://gitlab.com/gitlab-org/omnibus-gitlab",
+      "stars": "671",
+      "forks": "1.2k",
+      "mergeRequests": "82",
+      "issues": "1.3k",
+      "topics": [
+        {
+          "name": "bug",
+          "url": "https://gitlab.com/explore/projects/topics/bug"
+        },
+        {
+          "name": "confirmed",
+          "url": "https://gitlab.com/explore/projects/topics/confirmed"
+        },
+        {
+          "name": "critical",
+          "url": "https://gitlab.com/explore/projects/topics/critical"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "George Nachman/iterm2",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/252461/release.png?width=48",
+      "description": "Issues site for iTerm2",
+      "namespace": "George Nachman/",
+      "project": "iterm2",
+      "url": "https://gitlab.com/gnachman/iterm2",
+      "stars": "1.4k",
+      "forks": "185",
+      "mergeRequests": "",
+      "issues": "3.3k",
+      "topics": []
+    },
+    {
+      "id": "19",
+      "title": "GitLab.com/Runbooks",
+      "image": "https://gitlab.com/uploads/-/system/project/avatar/1148549/dont_panic_towel.jpg?width=48",
+      "description": "Runbooks for the stressed on-callMirrored to https://ops.gitlab.net/gitlab-com/runbooks",
+      "namespace": "GitLab.com/",
+      "project": "Runbooks",
+      "url": "https://gitlab.com/gitlab-com/runbooks",
+      "stars": "580",
+      "forks": "263",
+      "mergeRequests": "92",
+      "issues": "40",
+      "topics": []
+    }
+  ]
+}

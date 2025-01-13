@@ -5,6 +5,7 @@ import Music from "@/topics/music";
 import Anime from "@/topics/anime";
 import Manga from "@/topics/manga";
 import Github from "@/topics/github";
+import Gitlab from "./topics/gitlab";
 
 async function main() {
   console.log("Start");
@@ -17,6 +18,7 @@ async function main() {
     await Tv();
     await Music();
     await Github();
+    await Gitlab();
   }
   console.log("Complete");
 }
