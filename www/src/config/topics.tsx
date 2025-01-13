@@ -1,3 +1,4 @@
+import GithubIcon from "@/components/icons/github";
 import { BookUser, Clapperboard, Swords, Tv } from "lucide-react";
 import React from "react";
 
@@ -27,6 +28,11 @@ const topics: Topic[] = [
     name: "TV",
     path: "/tv",
     icon: <Tv />,
+  },
+  {
+    name: "Github",
+    path: "/github",
+    icon: <GithubIcon />,
   },
   // {
   //   name: "Music",

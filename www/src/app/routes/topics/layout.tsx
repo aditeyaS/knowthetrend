@@ -65,6 +65,8 @@ export default function TopicsLayout({
                   variant={"outline"}
                   size={"icon"}
                   className="rounded-full"
+                  aria-label="Back (Esc)"
+                  title="Back (Esc)"
                 >
                   <ArrowLeft />
                 </Button>

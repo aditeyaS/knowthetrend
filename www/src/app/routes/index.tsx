@@ -8,6 +8,7 @@ const Tv = lazy(() => import("./topics/tv"));
 const Music = lazy(() => import("./topics/music"));
 const Anime = lazy(() => import("./topics/anime"));
 const Manga = lazy(() => import("./topics/manga"));
+const Github = lazy(() => import("./topics/github"));
 
 const routes = createBrowserRouter([
   {
@@ -34,7 +35,10 @@ const routes = createBrowserRouter([
     path: "/manga",
     element: <Manga />,
   },
-
+  {
+    path: "/github",
+    element: <Github />,
+  },
   {
     path: "*",
     element: <NotFound />,
