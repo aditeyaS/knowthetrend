@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import { ExternalLink, Star } from "lucide-react";
+import { TvResponse } from "../../../../../../shared/types";
 import TopicsLayout from "../layout";
-import { ApiResponse, ITv } from "./api-response";
-import { getGenre } from "./get-genre";
 import GetDB from "@/config/get-db";
+import { Badge } from "@/components/ui/badge";
 
 export default function Tv() {
-  const [series, setSeries] = useState<ITv[]>([]);
+  const [movieResponse, setSeries] = useState<TvResponse>();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -15,8 +15,8 @@ export default function Tv() {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
-        const jsonData: ApiResponse = await response.json();
-        setSeries(jsonData.results);
+        const json = await response.json();
+        setSeries(json);
       } catch (error) {
         console.log(error);
       }
@@ -30,47 +30,45 @@ export default function Tv() {
       sourceText="themoviedb"
       sourceLink="https://www.themoviedb.org/"
     >
-      <div className="flex flex-col gap-2">
-        {series.map((s) => (
-          <div
-            key={s.id}
-            className="group flex items-start border p-2 rounded gap-4 hover:border-primary"
+      <div className="flex flex-col gap-5">
+        {movieResponse?.data.map((movie, index) => (
+          <a
+            key={movie.id}
+            href={movie.url}
+            target="_blank"
+            className="relative  flex items-start border p-5 rounded gap-4 hover:border-primary"
           >
-            <img
-              className="w-24"
-              src={`https://image.tmdb.org/t/p/original/${s.poster_path}`}
-            />
-            <div className="space-y-1">
-              <a
-                className="flex items-center gap-1 text-xl hover:underline underline-offset-4"
-                target="_blank"
-                href={`https://www.themoviedb.org/tv/${s.id}`}
-              >
-                {s.name}
-                {s.original_name !== s.name && (
+            <h1 className="absolute bg-primary p-1 rounded">#{index + 1}</h1>
+            <img className="h-96" src={movie.image} />
+            <div className="flex flex-col space-y-2">
+              <span className="text-xl flex items-center gap-1">
+                {movie.title}
+                {movie.title_original !== movie.title && (
                   <span className="text-muted-foreground font-light">
-                    ({s.original_name})
+                    ({movie.title_original})
                   </span>
                 )}
-                <ExternalLink className="w-3 hidden group-hover:block" />
-              </a>
+                <ExternalLink className="w-3 hidden " />
+              </span>
               <div className="flex items-center gap-4 text-sm">
                 <span className="flex items-center gap-1 text-primary">
-                  <Star className="w-3" /> {s.vote_average.toFixed(1)}
+                  <Star className="w-3" /> {movie.rating}
                 </span>
-                <span>{s.first_air_date}</span>
+                <span>{movie.first_air_date}</span>
               </div>
-              <p className="text-muted-foreground text-sm">{s.overview}</p>
-              <div className="text-sm flex gap-1">
-                <span className="text-muted-foreground underline">Genre:</span>
-                {s.genre_ids.map((genre) => (
-                  <span key={`series-${s.id}-genre-${genre}`}>
-                    {getGenre(genre)}
-                  </span>
+              <p className="text-muted-foreground text-sm text-justify">
+                {movie.description}
+              </p>
+              <div className="text-sm flex flex-wrap items-center gap-1">
+                <span className="text-muted-foreground">Genre:</span>
+                {movie.genres.map((genre) => (
+                  <Badge key={`manga-${movie.id}-genre-${genre.id}`}>
+                    {genre.name}
+                  </Badge>
                 ))}
               </div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </TopicsLayout>

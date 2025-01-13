@@ -1,4 +1,4 @@
-import { BookUser, Swords } from "lucide-react";
+import { BookUser, Clapperboard, Swords, Tv } from "lucide-react";
 import React from "react";
 
 interface Topic {
@@ -18,16 +18,16 @@ const topics: Topic[] = [
     path: "/manga",
     icon: <BookUser />,
   },
-  // {
-  //   name: "Movie",
-  //   path: "/movie",
-  //   icon: <Clapperboard />,
-  // },
-  // {
-  //   name: "TV",
-  //   path: "/tv",
-  //   icon: <Tv />,
-  // },
+  {
+    name: "Movie",
+    path: "/movie",
+    icon: <Clapperboard />,
+  },
+  {
+    name: "TV",
+    path: "/tv",
+    icon: <Tv />,
+  },
   // {
   //   name: "Music",
   //   path: "/music",
