@@ -18,6 +18,7 @@ export default function Landing() {
         <div className="grid grid-cols-4 gap-6">
           {topics.map((topic) => (
             <Link
+              key={topic.path}
               to={topic.path}
               className="aspect-square border rounded flex items-center justify-center hover:border-primary"
             >

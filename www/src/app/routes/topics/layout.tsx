@@ -1,13 +1,14 @@
 import { ModeToggle } from "@/components/mode-toggle";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft } from "lucide-react";
+import { useToast } from "@/hooks/use-toast";
+import { ArrowLeft, Share } from "lucide-react";
 import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router";
 
 interface Props extends React.HTMLAttributes<HTMLDivElement> {
-  title?: string;
-  sourceText?: string;
-  sourceLink?: string;
+  title: string;
+  sourceText: string;
+  sourceLink: string;
 }
 
 export default function TopicsLayout({
@@ -17,6 +18,7 @@ export default function TopicsLayout({
   ...props
 }: Props) {
   const navigate = useNavigate();
+  const { toast } = useToast();
 
   useEffect(() => {
     function back(e: KeyboardEvent) {
@@ -29,6 +31,26 @@ export default function TopicsLayout({
     return () => document.removeEventListener("keydown", back);
   }, []);
 
+  async function handleShare() {
+    const data: ShareData = {
+      title: `Trending ${title}`,
+      url: window.location.href,
+    };
+    if (navigator.canShare(data)) {
+      try {
+        await navigator.share(data);
+      } catch (e) {
+        console.log(e);
+      }
+    } else {
+      await navigator.clipboard.writeText(window.location.href);
+      toast({
+        title: "Success",
+        description: "Link copied to clipboard",
+      });
+    }
+  }
+
   return (
     <>
       <title>{title ? `${title} | Trendinggg` : "Trendinggg"}</title>
@@ -39,14 +61,22 @@ export default function TopicsLayout({
           <header className="rounded-t-xl flex justify-between items-center py-2 bg-primary pl-20 pr-20">
             <div className="flex items-center gap-2">
               <Link to={"/"}>
-                <Button variant={"ghost"} size={"icon"}>
+                <Button
+                  variant={"outline"}
+                  size={"icon"}
+                  className="rounded-full"
+                >
                   <ArrowLeft />
                 </Button>
               </Link>
               <h1 className="tracking-wider font-semibold">{title}</h1>
             </div>
-
-            <ModeToggle />
+            <div className="flex items-center gap-2">
+              <Button variant={"ghost"} size={"icon"} onClick={handleShare}>
+                <Share />
+              </Button>
+              <ModeToggle />
+            </div>
           </header>
         </div>
         <div className="h-24 " />
