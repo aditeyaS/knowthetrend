@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ExternalLink, Star } from "lucide-react";
-import { MangaResponse } from "../../../../../../shared/types";
+import { MangaResponse } from "@shared/types";
 import GetDB from "@/config/get-db";
 import TopicsLayout from "../layout";
 import { Badge } from "@/components/ui/badge";

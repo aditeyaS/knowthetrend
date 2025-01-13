@@ -1,5 +1,5 @@
-import { MangaResponse, Manga as IManga } from "../../../../shared/types";
-import UpdateDB from "../../util/update-db";
+import { MangaResponse, Manga as IManga } from "@shared/types";
+import UpdateDB from "@/utils/update-db";
 import { ApiResponse } from "./ApiResponse";
 
 const url = `https://api.jikan.moe/v4/top/manga`;

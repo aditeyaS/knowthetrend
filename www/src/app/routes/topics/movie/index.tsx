@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ExternalLink, Star } from "lucide-react";
-import { MovieResponse } from "../../../../../../shared/types";
+import { MovieResponse } from "@shared/types";
 import GetDB from "@/config/get-db";
 import { Badge } from "@/components/ui/badge";
 import TopicsLayout from "../layout";

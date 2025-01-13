@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ExternalLink, Star } from "lucide-react";
-import { TvResponse } from "../../../../../../shared/types";
+import { TvResponse } from "@shared/types";
 import TopicsLayout from "../layout";
 import GetDB from "@/config/get-db";
 import { Badge } from "@/components/ui/badge";

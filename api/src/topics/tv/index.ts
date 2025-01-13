@@ -1,6 +1,6 @@
-import { TvResponse, Tv as ITv } from "../../../../shared/types";
-import { TMDB_API_ACCESS_TOKEN } from "../../config/env";
-import UpdateDB from "../../util/update-db";
+import { TvResponse, Tv as ITv } from "@shared/types";
+import { TMDB_API_ACCESS_TOKEN } from "@/config/env";
+import UpdateDB from "@/utils/update-db";
 import { ApiResponse } from "./ApiResponse";
 import { GENRES } from "./genres";
 

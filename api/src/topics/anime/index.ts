@@ -1,5 +1,5 @@
-import { AnimeResponse, Anime as IAnime } from "../../../../shared/types";
-import UpdateDB from "../../util/update-db";
+import { AnimeResponse, Anime as IAnime } from "@shared/types";
+import UpdateDB from "@/utils/update-db";
 import { ApiResponse } from "./ApiResponse";
 
 const url = `https://api.jikan.moe/v4/top/anime`;

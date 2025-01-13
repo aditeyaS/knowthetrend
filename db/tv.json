@@ -1,30 +1,6 @@
 {
-  "last_updated": "2025-01-12T23:10:45.776Z",
+  "last_updated": "2025-01-13T02:08:51.378Z",
   "data": [
-    {
-      "id": "93405",
-      "title": "Squid Game",
-      "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
-      "url": "https://www.themoviedb.org/tv/93405",
-      "image": "https://image.tmdb.org/t/p/original/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg",
-      "title_original": "오징어 게임",
-      "rating": "7.8",
-      "first_air_date": "2021-09-17",
-      "genres": [
-        {
-          "id": 10759,
-          "name": ""
-        },
-        {
-          "id": 9648,
-          "name": "Mystery"
-        },
-        {
-          "id": 18,
-          "name": "Drama"
-        }
-      ]
-    },
     {
       "id": "207332",
       "title": "SAKAMOTO DAYS",
@@ -50,42 +26,22 @@
       ]
     },
     {
-      "id": "215866",
-      "title": "American Primeval",
-      "description": "A mother and son fleeing from their past form a found family while confronting a harsh landscape of freedom and cruelty in the American West.",
-      "url": "https://www.themoviedb.org/tv/215866",
-      "image": "https://image.tmdb.org/t/p/original/ff0s9OHGNSZL6cVteIb7LNvTnJD.jpg",
-      "title_original": "American Primeval",
-      "rating": "7.4",
-      "first_air_date": "2025-01-09",
+      "id": "93405",
+      "title": "Squid Game",
+      "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
+      "url": "https://www.themoviedb.org/tv/93405",
+      "image": "https://image.tmdb.org/t/p/original/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg",
+      "title_original": "오징어 게임",
+      "rating": "7.8",
+      "first_air_date": "2021-09-17",
       "genres": [
-        {
-          "id": 37,
-          "name": "Western"
-        },
-        {
-          "id": 18,
-          "name": "Drama"
-        },
         {
           "id": 10759,
           "name": ""
-        }
-      ]
-    },
-    {
-      "id": "125988",
-      "title": "Silo",
-      "description": "In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo.",
-      "url": "https://www.themoviedb.org/tv/125988",
-      "image": "https://image.tmdb.org/t/p/original/tlliQuCupf8fpTH7RAor3aKMGy.jpg",
-      "title_original": "Silo",
-      "rating": "8.2",
-      "first_air_date": "2023-05-04",
-      "genres": [
+        },
         {
-          "id": 10765,
-          "name": ""
+          "id": 9648,
+          "name": "Mystery"
         },
         {
           "id": 18,
@@ -118,54 +74,6 @@
       ]
     },
     {
-      "id": "157004",
-      "title": "Goosebumps",
-      "description": "A group of five high schoolers embark on a shadowy and twisted journey to investigate the tragic passing three decades earlier of a teen named Harold Biddle – while also unearthing dark secrets from their parents' past.",
-      "url": "https://www.themoviedb.org/tv/157004",
-      "image": "https://image.tmdb.org/t/p/original/pMrMPlEJAGAKBUWJzeacIwjRU2C.jpg",
-      "title_original": "Goosebumps",
-      "rating": "7.2",
-      "first_air_date": "2023-10-13",
-      "genres": [
-        {
-          "id": 10759,
-          "name": ""
-        },
-        {
-          "id": 10765,
-          "name": ""
-        },
-        {
-          "id": 35,
-          "name": "Comedy"
-        }
-      ]
-    },
-    {
-      "id": "220542",
-      "title": "The Apothecary Diaries",
-      "description": "Maomao lived a peaceful life with her apothecary father. Until one day, she's sold as a lowly servant to the emperor's palace. But she wasn't meant for a compliant life among royalty. So when imperial heirs fall ill, she decides to step in and find a cure! This catches the eye of Jinshi, a handsome palace official who promotes her. Now, she's making a name for herself solving medical mysteries!",
-      "url": "https://www.themoviedb.org/tv/220542",
-      "image": "https://image.tmdb.org/t/p/original/e3ojpANrFnmJCyeBNTinYwyBCIN.jpg",
-      "title_original": "薬屋のひとりごと",
-      "rating": "8.8",
-      "first_air_date": "2023-10-22",
-      "genres": [
-        {
-          "id": 16,
-          "name": "Animation"
-        },
-        {
-          "id": 18,
-          "name": "Drama"
-        },
-        {
-          "id": 9648,
-          "name": "Mystery"
-        }
-      ]
-    },
-    {
       "id": "281666",
       "title": "Goosebumps: The Vanishing",
       "description": "When twins Devin and Cece are sent to spend a summer in Gravesend, Brooklyn with their divorced dad, scientist Anthony Brewer, they must band together with new friends to save the neighborhood from a long-dormant threat.",
@@ -190,6 +98,30 @@
       ]
     },
     {
+      "id": "215866",
+      "title": "American Primeval",
+      "description": "A mother and son fleeing from their past form a found family while confronting a harsh landscape of freedom and cruelty in the American West.",
+      "url": "https://www.themoviedb.org/tv/215866",
+      "image": "https://image.tmdb.org/t/p/original/ff0s9OHGNSZL6cVteIb7LNvTnJD.jpg",
+      "title_original": "American Primeval",
+      "rating": "7.4",
+      "first_air_date": "2025-01-09",
+      "genres": [
+        {
+          "id": 37,
+          "name": "Western"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10759,
+          "name": ""
+        }
+      ]
+    },
+    {
       "id": "157741",
       "title": "Landman",
       "description": "Set in the proverbial boomtowns of West-Texas and a modern-day tale of fortune-seeking in the world of oil rigs, the series is an upstairs/downstairs story of roughnecks and wildcat billionaires that are fueling a boom so big it’s reshaping our climate, our economy and our geopolitics.",
@@ -202,54 +134,6 @@
         {
           "id": 18,
           "name": "Drama"
-        }
-      ]
-    },
-    {
-      "id": "236429",
-      "title": "On Call",
-      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
-      "url": "https://www.themoviedb.org/tv/236429",
-      "image": "https://image.tmdb.org/t/p/original/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
-      "title_original": "On Call",
-      "rating": "7.5",
-      "first_air_date": "2025-01-09",
-      "genres": [
-        {
-          "id": 80,
-          "name": "Crime"
-        },
-        {
-          "id": 18,
-          "name": "Drama"
-        },
-        {
-          "id": 10759,
-          "name": ""
-        }
-      ]
-    },
-    {
-      "id": "37854",
-      "title": "One Piece",
-      "description": "Years ago, the fearsome Pirate King, Gol D. Roger was executed leaving a huge pile of treasure and the famous \"One Piece\" behind. Whoever claims the \"One Piece\" will be named the new King of the Pirates.\n\nMonkey D. Luffy, a boy who consumed a \"Devil Fruit,\" decides to follow in the footsteps of his idol, the pirate Shanks, and find the One Piece. It helps, of course, that his body has the properties of rubber and that he's surrounded by a bevy of skilled fighters and thieves to help him along the way.\n\nLuffy will do anything to get the One Piece and become King of the Pirates!",
-      "url": "https://www.themoviedb.org/tv/37854",
-      "image": "https://image.tmdb.org/t/p/original/cMD9Ygz11zjJzAovURpO75Qg7rT.jpg",
-      "title_original": "ワンピース",
-      "rating": "8.7",
-      "first_air_date": "1999-10-20",
-      "genres": [
-        {
-          "id": 10759,
-          "name": ""
-        },
-        {
-          "id": 35,
-          "name": "Comedy"
-        },
-        {
-          "id": 16,
-          "name": "Animation"
         }
       ]
     },
@@ -278,15 +162,43 @@
       ]
     },
     {
-      "id": "250307",
-      "title": "The Pitt",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
-      "url": "https://www.themoviedb.org/tv/250307",
-      "image": "https://image.tmdb.org/t/p/original/nBpyv3hovY8ObUzfcGhUDAXW7QZ.jpg",
-      "title_original": "The Pitt",
-      "rating": "8.2",
-      "first_air_date": "2025-01-09",
+      "id": "157004",
+      "title": "Goosebumps",
+      "description": "A group of five high schoolers embark on a shadowy and twisted journey to investigate the tragic passing three decades earlier of a teen named Harold Biddle – while also unearthing dark secrets from their parents' past.",
+      "url": "https://www.themoviedb.org/tv/157004",
+      "image": "https://image.tmdb.org/t/p/original/pMrMPlEJAGAKBUWJzeacIwjRU2C.jpg",
+      "title_original": "Goosebumps",
+      "rating": "7.2",
+      "first_air_date": "2023-10-13",
       "genres": [
+        {
+          "id": 10759,
+          "name": ""
+        },
+        {
+          "id": 10765,
+          "name": ""
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ]
+    },
+    {
+      "id": "125988",
+      "title": "Silo",
+      "description": "In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo.",
+      "url": "https://www.themoviedb.org/tv/125988",
+      "image": "https://image.tmdb.org/t/p/original/tlliQuCupf8fpTH7RAor3aKMGy.jpg",
+      "title_original": "Silo",
+      "rating": "8.2",
+      "first_air_date": "2023-05-04",
+      "genres": [
+        {
+          "id": 10765,
+          "name": ""
+        },
         {
           "id": 18,
           "name": "Drama"
@@ -294,26 +206,74 @@
       ]
     },
     {
-      "id": "219543",
-      "title": "Creature Commandos",
-      "description": "Follow the exploits of the Creature Commandos, a secret team of incarcerated monsters recruited for missions deemed too dangerous for humans. When all else fails... they're your last, worst option.",
-      "url": "https://www.themoviedb.org/tv/219543",
-      "image": "https://image.tmdb.org/t/p/original/bB3G6Ug1jfsOUptb0RJsqrgMVta.jpg",
-      "title_original": "Creature Commandos",
-      "rating": "8.1",
-      "first_air_date": "2024-12-05",
+      "id": "236429",
+      "title": "On Call",
+      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
+      "url": "https://www.themoviedb.org/tv/236429",
+      "image": "https://image.tmdb.org/t/p/original/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
+      "title_original": "On Call",
+      "rating": "7.6",
+      "first_air_date": "2025-01-09",
+      "genres": [
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10759,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "id": "220542",
+      "title": "The Apothecary Diaries",
+      "description": "Maomao lived a peaceful life with her apothecary father. Until one day, she's sold as a lowly servant to the emperor's palace. But she wasn't meant for a compliant life among royalty. So when imperial heirs fall ill, she decides to step in and find a cure! This catches the eye of Jinshi, a handsome palace official who promotes her. Now, she's making a name for herself solving medical mysteries!",
+      "url": "https://www.themoviedb.org/tv/220542",
+      "image": "https://image.tmdb.org/t/p/original/e3ojpANrFnmJCyeBNTinYwyBCIN.jpg",
+      "title_original": "薬屋のひとりごと",
+      "rating": "8.8",
+      "first_air_date": "2023-10-22",
       "genres": [
         {
           "id": 16,
           "name": "Animation"
         },
         {
-          "id": 10765,
-          "name": ""
+          "id": 18,
+          "name": "Drama"
         },
+        {
+          "id": 9648,
+          "name": "Mystery"
+        }
+      ]
+    },
+    {
+      "id": "37854",
+      "title": "One Piece",
+      "description": "Years ago, the fearsome Pirate King, Gol D. Roger was executed leaving a huge pile of treasure and the famous \"One Piece\" behind. Whoever claims the \"One Piece\" will be named the new King of the Pirates.\n\nMonkey D. Luffy, a boy who consumed a \"Devil Fruit,\" decides to follow in the footsteps of his idol, the pirate Shanks, and find the One Piece. It helps, of course, that his body has the properties of rubber and that he's surrounded by a bevy of skilled fighters and thieves to help him along the way.\n\nLuffy will do anything to get the One Piece and become King of the Pirates!",
+      "url": "https://www.themoviedb.org/tv/37854",
+      "image": "https://image.tmdb.org/t/p/original/cMD9Ygz11zjJzAovURpO75Qg7rT.jpg",
+      "title_original": "ワンピース",
+      "rating": "8.7",
+      "first_air_date": "1999-10-20",
+      "genres": [
         {
           "id": 10759,
           "name": ""
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 16,
+          "name": "Animation"
         }
       ]
     },
@@ -334,6 +294,82 @@
         {
           "id": 10759,
           "name": ""
+        },
+        {
+          "id": 10765,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "id": "95396",
+      "title": "Severance",
+      "description": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. When a mysterious colleague appears outside of work, it begins a journey to discover the truth about their jobs.",
+      "url": "https://www.themoviedb.org/tv/95396",
+      "image": "https://image.tmdb.org/t/p/original/lFf6LLrQjYldcZItzOkGmMMigP7.jpg",
+      "title_original": "Severance",
+      "rating": "8.4",
+      "first_air_date": "2022-02-17",
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 9648,
+          "name": "Mystery"
+        },
+        {
+          "id": 10765,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "id": "95269",
+      "title": "Toilet-Bound Hanako-kun",
+      "description": "First year high school student and occultist, Nene Yashiro summons \"Hanako-san of the Toilet\" to grant her romantic wishes. She ends up Hanako's spiritual assistant, helping him destroy supernatural beings and change rumors to balance the spirit and human worlds. Along the way, Nene learns about her connection to the spirit world and the dark secrets regarding Hanako's past.",
+      "url": "https://www.themoviedb.org/tv/95269",
+      "image": "https://image.tmdb.org/t/p/original/wqB7rst3tJ1o177BjFMgxGIBfRa.jpg",
+      "title_original": "地縛少年花子くん",
+      "rating": "8.6",
+      "first_air_date": "2020-01-10",
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 9648,
+          "name": "Mystery"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ]
+    },
+    {
+      "id": "261148",
+      "title": "The Red Ranger Becomes an Adventurer in Another World",
+      "description": "Togo Asagaki was the Red Ranger in a heroic Ranger squad. During their final battle against an evil organization, he gave his life to guarantee their triumph. But fate had other plans, and he found himself reborn in an entirely different world. Embracing his new role as an adventurer, he transforms into Kizuna Red and continues his pursuit of justice, helping those in need.",
+      "url": "https://www.themoviedb.org/tv/261148",
+      "image": "https://image.tmdb.org/t/p/original/6Mh3iaUrL4ZPvpmbCJKBICBEbNi.jpg",
+      "title_original": "戦隊レッド 異世界で冒険者になる",
+      "rating": "0.0",
+      "first_air_date": "2025-01-12",
+      "genres": [
+        {
+          "id": 10759,
+          "name": ""
+        },
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
         },
         {
           "id": 10765,
@@ -366,50 +402,18 @@
       ]
     },
     {
-      "id": "219937",
-      "title": "Dexter: Original Sin",
-      "description": "In 1991 Miami, Dexter Morgan transitions from student to avenging serial killer. When his bloodthirsty urges can't be ignored any longer, Dexter must learn to channel his inner darkness. With the guidance of his father, Harry, he adopts a Code designed to help him find and kill people who deserve to be eliminated from society without getting on law enforcements' radar. This is a particular challenge for young Dexter as he begins a forensics internship at the Miami Metro Police Department.",
-      "url": "https://www.themoviedb.org/tv/219937",
-      "image": "https://image.tmdb.org/t/p/original/j5bP7spdfS0NpDLKDlqJYyJPi1j.jpg",
-      "title_original": "Dexter: Original Sin",
-      "rating": "8.9",
-      "first_air_date": "2024-12-15",
+      "id": "250307",
+      "title": "The Pitt",
+      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "url": "https://www.themoviedb.org/tv/250307",
+      "image": "https://image.tmdb.org/t/p/original/6fMGktEDXMZZPACJ5cWkVQ6TSte.jpg",
+      "title_original": "The Pitt",
+      "rating": "8.2",
+      "first_air_date": "2025-01-09",
       "genres": [
-        {
-          "id": 80,
-          "name": "Crime"
-        },
         {
           "id": 18,
           "name": "Drama"
-        }
-      ]
-    },
-    {
-      "id": "249964",
-      "title": "I May Be a Guild Receptionist, but I'll Solo Any Boss to Clock Out on Time",
-      "description": "Alina thought she had found the perfect job as a guild receptionist. It’s stable, safe, and has a super cute uniform. But this dream gig turns into an overtime nightmare whenever adventurers get stuck clearing a dungeon. Tired of the long nights, Alina starts taking down the bosses herself! She even earns the name Executioner for her impressive skills. Can she keep her identity a secret?",
-      "url": "https://www.themoviedb.org/tv/249964",
-      "image": "https://image.tmdb.org/t/p/original/n9WZ97NUkT0Gc7ro6kVw1qe4ItR.jpg",
-      "title_original": "ギルドの受付嬢ですが、残業は嫌なのでボスをソロ討伐しようと思います",
-      "rating": "0.0",
-      "first_air_date": "2025-01-10",
-      "genres": [
-        {
-          "id": 16,
-          "name": "Animation"
-        },
-        {
-          "id": 35,
-          "name": "Comedy"
-        },
-        {
-          "id": 10759,
-          "name": ""
-        },
-        {
-          "id": 10765,
-          "name": ""
         }
       ]
     },
@@ -434,26 +438,22 @@
       ]
     },
     {
-      "id": "86031",
-      "title": "Dr. STONE",
-      "description": "One fateful day, all of humanity was petrified by a blinding flash of light. After several millennia, high schooler Taiju awakens and finds himself lost in a world of statues. However, he's not alone! His science-loving friend Senku's been up and running for a few months and he's got a grand plan in mind, to kickstart civilization with the power of science!",
-      "url": "https://www.themoviedb.org/tv/86031",
-      "image": "https://image.tmdb.org/t/p/original/xbZQ3fDl0y5mt0ARwfeyrgQ4JTw.jpg",
-      "title_original": "Dr.STONE",
-      "rating": "8.5",
-      "first_air_date": "2019-07-05",
+      "id": "57243",
+      "title": "Doctor Who",
+      "description": "The Doctor is a Time Lord: a 900 year old alien with 2 hearts, part of a gifted civilization who mastered time travel. The Doctor saves planets for a living—more of a hobby actually, and the Doctor's very, very good at it.",
+      "url": "https://www.themoviedb.org/tv/57243",
+      "image": "https://image.tmdb.org/t/p/original/4edFyasCrkH4MKs6H4mHqlrxA6b.jpg",
+      "title_original": "Doctor Who",
+      "rating": "7.5",
+      "first_air_date": "2005-03-26",
       "genres": [
         {
           "id": 10759,
           "name": ""
         },
         {
-          "id": 16,
-          "name": "Animation"
-        },
-        {
-          "id": 35,
-          "name": "Comedy"
+          "id": 18,
+          "name": "Drama"
         },
         {
           "id": 10765,

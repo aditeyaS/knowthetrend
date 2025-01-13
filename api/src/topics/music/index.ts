@@ -1,5 +1,5 @@
-import { LAST_FM_API_KEY } from "../../config/env";
-import UpdateDB from "../../util/update-db";
+import { LAST_FM_API_KEY } from "@/config/env";
+import UpdateDB from "@/utils/update-db";
 
 export default async function Music() {
   const lastFmApiKey = LAST_FM_API_KEY();
