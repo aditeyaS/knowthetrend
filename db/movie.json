@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-01-13T02:08:51.306Z",
+  "last_updated": "2025-01-13T16:58:19.230Z",
   "data": [
     {
       "id": "1261501",
@@ -8,7 +8,7 @@
       "description": "When he and his pregnant wife are attacked in their home, a former elite agent becomes trapped in a deadly manhunt tied to his own painful past.",
       "url": "https://www.themoviedb.org/movie/1261501",
       "image": "https://image.tmdb.org/t/p/original/8qJfjFhNwpTONNAoE6gUSx2yGpg.jpg",
-      "rating": "6.1",
+      "rating": "6.2",
       "release_date": "2025-01-09",
       "genres": [
         {
@@ -30,13 +30,53 @@
       ]
     },
     {
+      "id": "1088514",
+      "title": "The Room Next Door",
+      "title_original": "La habitación de al lado",
+      "description": "Ingrid and Martha were close friends in their youth, when they worked together at the same magazine. Ingrid went on to become an autofiction novelist while Martha became a war reporter, and they were separated by the circumstances of life. After years of being out of touch, they meet again in an extreme but strangely sweet situation.",
+      "url": "https://www.themoviedb.org/movie/1088514",
+      "image": "https://image.tmdb.org/t/p/original/786Uu8eHfctp2TkII7ga1AnTBSs.jpg",
+      "rating": "7.2",
+      "release_date": "2024-10-07",
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ]
+    },
+    {
+      "id": "426063",
+      "title": "Nosferatu",
+      "title_original": "Nosferatu",
+      "description": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
+      "url": "https://www.themoviedb.org/movie/426063",
+      "image": "https://image.tmdb.org/t/p/original/5qGIxdEO841C0tdY8vOdLoRVrr0.jpg",
+      "rating": "6.8",
+      "release_date": "2024-12-25",
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        },
+        {
+          "id": 27,
+          "name": "Horror"
+        }
+      ]
+    },
+    {
       "id": "402431",
       "title": "Wicked",
       "title_original": "Wicked",
       "description": "In the land of Oz, ostracized and misunderstood green-skinned Elphaba is forced to share a room with the popular aristocrat Glinda at Shiz University, and the two's unlikely friendship is tested as they begin to fulfill their respective destinies as Glinda the Good and the Wicked Witch of the West.",
       "url": "https://www.themoviedb.org/movie/402431",
       "image": "https://image.tmdb.org/t/p/original/xDGbZ0JJ3mYaGKy4Nzd9Kph6M9L.jpg",
-      "rating": "7.3",
+      "rating": "7.2",
       "release_date": "2024-11-20",
       "genres": [
         {
@@ -74,30 +114,6 @@
         {
           "id": 12,
           "name": "Adventure"
-        }
-      ]
-    },
-    {
-      "id": "426063",
-      "title": "Nosferatu",
-      "title_original": "Nosferatu",
-      "description": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
-      "url": "https://www.themoviedb.org/movie/426063",
-      "image": "https://image.tmdb.org/t/p/original/5qGIxdEO841C0tdY8vOdLoRVrr0.jpg",
-      "rating": "6.8",
-      "release_date": "2024-12-25",
-      "genres": [
-        {
-          "id": 18,
-          "name": "Drama"
-        },
-        {
-          "id": 14,
-          "name": "Fantasy"
-        },
-        {
-          "id": 27,
-          "name": "Horror"
         }
       ]
     },
@@ -154,22 +170,22 @@
       ]
     },
     {
-      "id": "1013850",
-      "title": "A Real Pain",
-      "title_original": "A Real Pain",
-      "description": "Mismatched cousins David and Benji reunite for a tour through Poland to honor their beloved grandmother. The adventure takes a turn when the pair's old tensions resurface against the backdrop of their family history.",
-      "url": "https://www.themoviedb.org/movie/1013850",
-      "image": "https://image.tmdb.org/t/p/original/38lb62nJcNvVgCDkFt2wiVE0bX4.jpg",
-      "rating": "6.7",
-      "release_date": "2024-11-01",
+      "id": "933260",
+      "title": "The Substance",
+      "title_original": "The Substance",
+      "description": "A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself.",
+      "url": "https://www.themoviedb.org/movie/933260",
+      "image": "https://image.tmdb.org/t/p/original/lqoMzCcZYEFK729d6qzt349fB4o.jpg",
+      "rating": "7.1",
+      "release_date": "2024-09-07",
       "genres": [
         {
-          "id": 35,
-          "name": "Comedy"
+          "id": 27,
+          "name": "Horror"
         },
         {
-          "id": 18,
-          "name": "Drama"
+          "id": 878,
+          "name": "Science Fiction"
         }
       ]
     },
@@ -198,39 +214,39 @@
       ]
     },
     {
-      "id": "933260",
-      "title": "The Substance",
-      "title_original": "The Substance",
-      "description": "A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself.",
-      "url": "https://www.themoviedb.org/movie/933260",
-      "image": "https://image.tmdb.org/t/p/original/lqoMzCcZYEFK729d6qzt349fB4o.jpg",
-      "rating": "7.1",
-      "release_date": "2024-09-07",
+      "id": "604685",
+      "title": "Den of Thieves 2: Pantera",
+      "title_original": "Den of Thieves 2: Pantera",
+      "description": "Big Nick is back on the hunt in Europe and closing in on Donnie, who is embroiled in the treacherous and unpredictable world of diamond thieves and the infamous Panther mafia, as they plot a massive heist of the world's largest diamond exchange.",
+      "url": "https://www.themoviedb.org/movie/604685",
+      "image": "https://image.tmdb.org/t/p/original/15S0xOO4d7zBgasV2qNo03Ax7Qb.jpg",
+      "rating": "6.4",
+      "release_date": "2025-01-08",
       "genres": [
         {
-          "id": 27,
-          "name": "Horror"
+          "id": 28,
+          "name": "Action"
         },
         {
-          "id": 878,
-          "name": "Science Fiction"
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
         }
       ]
     },
     {
-      "id": "1064213",
-      "title": "Anora",
-      "title_original": "Anora",
-      "description": "A young sex worker from Brooklyn gets her chance at a Cinderella story when she meets and impulsively marries the son of an oligarch. Once the news reaches Russia, her fairytale is threatened as his parents set out to get the marriage annulled.",
-      "url": "https://www.themoviedb.org/movie/1064213",
-      "image": "https://image.tmdb.org/t/p/original/7MrgIUeq0DD2iF7GR6wqJfYZNeC.jpg",
-      "rating": "6.9",
-      "release_date": "2024-10-14",
+      "id": "1013850",
+      "title": "A Real Pain",
+      "title_original": "A Real Pain",
+      "description": "Mismatched cousins David and Benji reunite for a tour through Poland to honor their beloved grandmother. The adventure takes a turn when the pair's old tensions resurface against the backdrop of their family history.",
+      "url": "https://www.themoviedb.org/movie/1013850",
+      "image": "https://image.tmdb.org/t/p/original/38lb62nJcNvVgCDkFt2wiVE0bX4.jpg",
+      "rating": "6.7",
+      "release_date": "2024-11-01",
       "genres": [
-        {
-          "id": 10749,
-          "name": "Romance"
-        },
         {
           "id": 35,
           "name": "Comedy"
@@ -266,54 +282,18 @@
       ]
     },
     {
-      "id": "1184918",
-      "title": "The Wild Robot",
-      "title_original": "The Wild Robot",
-      "description": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
-      "url": "https://www.themoviedb.org/movie/1184918",
-      "image": "https://image.tmdb.org/t/p/original/9w0Vh9eizfBXrcomiaFWTIPdboo.jpg",
-      "rating": "8.4",
-      "release_date": "2024-09-12",
+      "id": "1255788",
+      "title": "The Gardener",
+      "title_original": "Le Jardinier",
+      "description": "Every year the Prime Minister has a list of all kinds of troublemakers eliminated in the name of the famous Reason of State. Serge Shuster, Special Adviser to the President of the Republic, finds himself on this list, better known as the Matignon List.  Condemned to certain death and at the heart of an implacable plot and a state secret that also put his family in danger, Serge, his wife and children have only one hope left - their gardener, Léo, who hates it when « slugs » invade his garden... Especially those that want to kill innocent families.",
+      "url": "https://www.themoviedb.org/movie/1255788",
+      "image": "https://image.tmdb.org/t/p/original/5T9WR7vIOnHm6xhVt5zBuPbBgt1.jpg",
+      "rating": "4.7",
+      "release_date": "2025-01-10",
       "genres": [
-        {
-          "id": 16,
-          "name": "Animation"
-        },
         {
           "id": 28,
           "name": "Action"
-        },
-        {
-          "id": 878,
-          "name": "Science Fiction"
-        },
-        {
-          "id": 10751,
-          "name": "Family"
-        }
-      ]
-    },
-    {
-      "id": "1241982",
-      "title": "Moana 2",
-      "title_original": "Moana 2",
-      "description": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
-      "url": "https://www.themoviedb.org/movie/1241982",
-      "image": "https://image.tmdb.org/t/p/original/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
-      "rating": "7.0",
-      "release_date": "2024-11-21",
-      "genres": [
-        {
-          "id": 16,
-          "name": "Animation"
-        },
-        {
-          "id": 12,
-          "name": "Adventure"
-        },
-        {
-          "id": 10751,
-          "name": "Family"
         },
         {
           "id": 35,
@@ -322,26 +302,46 @@
       ]
     },
     {
-      "id": "11",
-      "title": "Star Wars",
-      "title_original": "Star Wars",
-      "description": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
-      "url": "https://www.themoviedb.org/movie/11",
-      "image": "https://image.tmdb.org/t/p/original/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
-      "rating": "8.2",
-      "release_date": "1977-05-25",
+      "id": "974950",
+      "title": "Emilia Pérez",
+      "title_original": "Emilia Pérez",
+      "description": "Rita, an underrated lawyer working for a large law firm more interested in getting criminals out of jail than bringing them to justice, is hired by the leader of a criminal organization.",
+      "url": "https://www.themoviedb.org/movie/974950",
+      "image": "https://image.tmdb.org/t/p/original/7seqaCaaXDNUHOx4DqwpoOH8pPa.jpg",
+      "rating": "7.8",
+      "release_date": "2024-08-21",
       "genres": [
         {
-          "id": 12,
-          "name": "Adventure"
+          "id": 18,
+          "name": "Drama"
         },
         {
-          "id": 28,
-          "name": "Action"
+          "id": 53,
+          "name": "Thriller"
+        }
+      ]
+    },
+    {
+      "id": "1064213",
+      "title": "Anora",
+      "title_original": "Anora",
+      "description": "A young sex worker from Brooklyn gets her chance at a Cinderella story when she meets and impulsively marries the son of an oligarch. Once the news reaches Russia, her fairytale is threatened as his parents set out to get the marriage annulled.",
+      "url": "https://www.themoviedb.org/movie/1064213",
+      "image": "https://image.tmdb.org/t/p/original/7MrgIUeq0DD2iF7GR6wqJfYZNeC.jpg",
+      "rating": "6.9",
+      "release_date": "2024-10-14",
+      "genres": [
+        {
+          "id": 10749,
+          "name": "Romance"
         },
         {
-          "id": 878,
-          "name": "Science Fiction"
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
         }
       ]
     },
@@ -374,110 +374,86 @@
       ]
     },
     {
-      "id": "157336",
-      "title": "Interstellar",
-      "title_original": "Interstellar",
-      "description": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
-      "url": "https://www.themoviedb.org/movie/157336",
-      "image": "https://image.tmdb.org/t/p/original/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
-      "rating": "8.4",
-      "release_date": "2014-11-05",
+      "id": "710295",
+      "title": "Wolf Man",
+      "title_original": "Wolf Man",
+      "description": "With his marriage fraying, Blake persuades his wife Charlotte to take a break from the city and visit his remote childhood home in rural Oregon. As they arrive at the farmhouse in the dead of night, they're attacked by an unseen animal and barricade themselves inside the home as the creature prowls the perimeter. But as the night stretches on, Blake begins to behave strangely, transforming into something unrecognizable.",
+      "url": "https://www.themoviedb.org/movie/710295",
+      "image": "https://image.tmdb.org/t/p/original/tUtuMtC6oaRXr4x2B5Xi6ABdMCv.jpg",
+      "rating": "7.2",
+      "release_date": "2025-01-15",
       "genres": [
         {
-          "id": 12,
-          "name": "Adventure"
+          "id": 27,
+          "name": "Horror"
         },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ]
+    },
+    {
+      "id": "1097549",
+      "title": "Babygirl",
+      "title_original": "Babygirl",
+      "description": "A high-powered CEO puts her career and family on the line when she begins a torrid affair with her much younger intern.",
+      "url": "https://www.themoviedb.org/movie/1097549",
+      "image": "https://image.tmdb.org/t/p/original/A8HbTd0FemZyFCh5qvJFpHGiwF8.jpg",
+      "rating": "5.6",
+      "release_date": "2024-12-25",
+      "genres": [
         {
           "id": 18,
           "name": "Drama"
+        }
+      ]
+    },
+    {
+      "id": "1184918",
+      "title": "The Wild Robot",
+      "title_original": "The Wild Robot",
+      "description": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
+      "url": "https://www.themoviedb.org/movie/1184918",
+      "image": "https://image.tmdb.org/t/p/original/9w0Vh9eizfBXrcomiaFWTIPdboo.jpg",
+      "rating": "8.4",
+      "release_date": "2024-09-12",
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 28,
+          "name": "Action"
         },
         {
           "id": 878,
           "name": "Science Fiction"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
         }
       ]
     },
     {
-      "id": "1255788",
-      "title": "The Gardener",
-      "title_original": "Le Jardinier",
-      "description": "Every year the Prime Minister has a list of all kinds of troublemakers eliminated in the name of the famous Reason of State. Serge Shuster, Special Adviser to the President of the Republic, finds himself on this list, better known as the Matignon List.  Condemned to certain death and at the heart of an implacable plot and a state secret that also put his family in danger, Serge, his wife and children have only one hope left - their gardener, Léo, who hates it when « slugs » invade his garden... Especially those that want to kill innocent families.",
-      "url": "https://www.themoviedb.org/movie/1255788",
-      "image": "https://image.tmdb.org/t/p/original/5T9WR7vIOnHm6xhVt5zBuPbBgt1.jpg",
-      "rating": "4.6",
-      "release_date": "2025-01-10",
+      "id": "936245",
+      "title": "Hidden Face",
+      "title_original": "히든페이스",
+      "description": "Su-yeon, a cellist in an orchestra led by her fiancé and conductor Sung-jin, disappears one day, leaving behind only a video recording. Sung-jin is devastated over the loss of Su-yeon, but feels a strong attraction to Mi-ju, a cellist who fills in for his fiancée. Then one rainy night, Sung-jin and Mi-ju get swept away by their mutual desires for each other and commit an unforgivable act at Su-yeon’s house. Meanwhile, Su-yeon, who is thought to have gone missing, remains trapped in a secret room inside her house, and watches the naked truth unravel before her.",
+      "url": "https://www.themoviedb.org/movie/936245",
+      "image": "https://image.tmdb.org/t/p/original/kjLbzQVkQovLpUt4rXiFY2Lv4qM.jpg",
+      "rating": "2.8",
+      "release_date": "2024-11-20",
       "genres": [
         {
-          "id": 28,
-          "name": "Action"
-        },
-        {
-          "id": 35,
-          "name": "Comedy"
-        }
-      ]
-    },
-    {
-      "id": "974453",
-      "title": "Absolution",
-      "title_original": "Absolution",
-      "description": "An aging ex-boxer gangster working as muscle for a Boston crime boss receives an upsetting diagnosis.  Despite a faltering memory, he attempts to rectify the sins of his past and reconnect with his estranged children. He is determined to leave a positive legacy for his grandson, but the criminal underworld isn’t done with him and won’t loosen their grip willingly.",
-      "url": "https://www.themoviedb.org/movie/974453",
-      "image": "https://image.tmdb.org/t/p/original/2MeQG5Vq8rUnRAa463BZe5GNhVk.jpg",
-      "rating": "5.9",
-      "release_date": "2024-10-31",
-      "genres": [
-        {
-          "id": 28,
-          "name": "Action"
-        },
-        {
-          "id": 80,
-          "name": "Crime"
+          "id": 9648,
+          "name": "Mystery"
         },
         {
           "id": 53,
           "name": "Thriller"
-        }
-      ]
-    },
-    {
-      "id": "604685",
-      "title": "Den of Thieves 2: Pantera",
-      "title_original": "Den of Thieves 2: Pantera",
-      "description": "Big Nick is back on the hunt in Europe and closing in on Donnie, who is embroiled in the treacherous and unpredictable world of diamond thieves and the infamous Panther mafia, as they plot a massive heist of the world's largest diamond exchange.",
-      "url": "https://www.themoviedb.org/movie/604685",
-      "image": "https://image.tmdb.org/t/p/original/15S0xOO4d7zBgasV2qNo03Ax7Qb.jpg",
-      "rating": "6.4",
-      "release_date": "2025-01-08",
-      "genres": [
-        {
-          "id": 28,
-          "name": "Action"
-        },
-        {
-          "id": 80,
-          "name": "Crime"
-        },
-        {
-          "id": 53,
-          "name": "Thriller"
-        }
-      ]
-    },
-    {
-      "id": "974576",
-      "title": "Conclave",
-      "title_original": "Conclave",
-      "description": "After the unexpected death of the Pope, Cardinal Lawrence is tasked with managing the covert and ancient ritual of electing a new one. Sequestered in the Vatican with the Catholic Church’s most powerful leaders until the process is complete, Lawrence finds himself at the center of a conspiracy that could lead to its downfall.",
-      "url": "https://www.themoviedb.org/movie/974576",
-      "image": "https://image.tmdb.org/t/p/original/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg",
-      "rating": "7.2",
-      "release_date": "2024-10-25",
-      "genres": [
-        {
-          "id": 18,
-          "name": "Drama"
         }
       ]
     }

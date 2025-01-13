@@ -5,7 +5,7 @@ import UpdateDB from "@/utils/update-db";
 export default async function Github() {
   const response = await fetch("https://github.com/trending");
   if (!response.ok) {
-    throw new Error(`HTTP error! Status: ${response.status}`);
+    throw new Error(`❌ Github. Status: ${response.status}`);
   }
   const html = await response.text();
   let githubList: IGithub[] = [];

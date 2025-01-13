@@ -5,7 +5,7 @@ import UpdateDB from "@/utils/update-db";
 export default async function Gitlab() {
   const response = await fetch("https://gitlab.com/explore/projects/trending");
   if (!response.ok) {
-    throw new Error(`HTTP error! Status: ${response.status}`);
+    throw new Error(`❌ Gitlab. Status: ${response.status}`);
   }
   const html = await response.text();
   let gitlabList: IGitlab[] = [];

@@ -1,4 +1,5 @@
 import GithubIcon from "@/components/icons/github";
+import GitlabIcon from "@/components/icons/gitlab";
 import { BookUser, Clapperboard, Swords, Tv } from "lucide-react";
 import React from "react";
 
@@ -33,6 +34,11 @@ const topics: Topic[] = [
     name: "Github",
     path: "/github",
     icon: <GithubIcon />,
+  },
+  {
+    name: "Gitlab",
+    path: "/gitlab",
+    icon: <GitlabIcon />,
   },
   // {
   //   name: "Music",

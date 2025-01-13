@@ -1,26 +1,13 @@
 import "dotenv/config";
-import Movie from "@/topics/movie";
-import Tv from "@/topics/tv";
-import Music from "@/topics/music";
-import Anime from "@/topics/anime";
-import Manga from "@/topics/manga";
-import Github from "@/topics/github";
-import Gitlab from "./topics/gitlab";
+import { topics } from "./topics";
 
 async function main() {
-  console.log("Start");
   if (process.env.NODE_ENV === "development") {
-    console.log("Dev mode");
+    console.info("🏁 Start, 🧪 development");
   } else {
-    await Anime();
-    await Manga();
-    await Movie();
-    await Tv();
-    await Music();
-    await Github();
-    await Gitlab();
+    console.info("🏁 Start, 📈 production");
+    await topics();
   }
-  console.log("Complete");
+  console.log("🤖 Complete");
 }
-
 main();

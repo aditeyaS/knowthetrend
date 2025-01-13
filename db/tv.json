@@ -1,30 +1,6 @@
 {
-  "last_updated": "2025-01-13T02:08:51.378Z",
+  "last_updated": "2025-01-13T16:58:19.299Z",
   "data": [
-    {
-      "id": "207332",
-      "title": "SAKAMOTO DAYS",
-      "description": "Once the greatest hitman of all, Taro Sakamoto retired in the name of love. But when his past catches up, he must fight to protect his beloved family.",
-      "url": "https://www.themoviedb.org/tv/207332",
-      "image": "https://image.tmdb.org/t/p/original/lBOHMPWetQprntjjtGquHwIHSvx.jpg",
-      "title_original": "SAKAMOTO DAYS",
-      "rating": "9.0",
-      "first_air_date": "2025-01-11",
-      "genres": [
-        {
-          "id": 16,
-          "name": "Animation"
-        },
-        {
-          "id": 35,
-          "name": "Comedy"
-        },
-        {
-          "id": 10759,
-          "name": ""
-        }
-      ]
-    },
     {
       "id": "93405",
       "title": "Squid Game",
@@ -46,6 +22,46 @@
         {
           "id": 18,
           "name": "Drama"
+        }
+      ]
+    },
+    {
+      "id": "157741",
+      "title": "Landman",
+      "description": "Set in the proverbial boomtowns of West-Texas and a modern-day tale of fortune-seeking in the world of oil rigs, the series is an upstairs/downstairs story of roughnecks and wildcat billionaires that are fueling a boom so big it’s reshaping our climate, our economy and our geopolitics.",
+      "url": "https://www.themoviedb.org/tv/157741",
+      "image": "https://image.tmdb.org/t/p/original/lWy8zDKn7KFf4s9iaQSNgdoPHaN.jpg",
+      "title_original": "Landman",
+      "rating": "8.0",
+      "first_air_date": "2024-11-17",
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ]
+    },
+    {
+      "id": "207332",
+      "title": "SAKAMOTO DAYS",
+      "description": "Once the greatest hitman of all, Taro Sakamoto retired in the name of love. But when his past catches up, he must fight to protect his beloved family.",
+      "url": "https://www.themoviedb.org/tv/207332",
+      "image": "https://image.tmdb.org/t/p/original/lBOHMPWetQprntjjtGquHwIHSvx.jpg",
+      "title_original": "SAKAMOTO DAYS",
+      "rating": "7.7",
+      "first_air_date": "2025-01-11",
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 10759,
+          "name": ""
         }
       ]
     },
@@ -74,30 +90,6 @@
       ]
     },
     {
-      "id": "281666",
-      "title": "Goosebumps: The Vanishing",
-      "description": "When twins Devin and Cece are sent to spend a summer in Gravesend, Brooklyn with their divorced dad, scientist Anthony Brewer, they must band together with new friends to save the neighborhood from a long-dormant threat.",
-      "url": "https://www.themoviedb.org/tv/281666",
-      "image": "https://image.tmdb.org/t/p/original/ajghauMTZ4RKVeISDUzxcMWjXnI.jpg",
-      "title_original": "Goosebumps: The Vanishing",
-      "rating": "8.2",
-      "first_air_date": "2025-01-10",
-      "genres": [
-        {
-          "id": 10759,
-          "name": ""
-        },
-        {
-          "id": 10765,
-          "name": ""
-        },
-        {
-          "id": 35,
-          "name": "Comedy"
-        }
-      ]
-    },
-    {
       "id": "215866",
       "title": "American Primeval",
       "description": "A mother and son fleeing from their past form a found family while confronting a harsh landscape of freedom and cruelty in the American West.",
@@ -118,22 +110,6 @@
         {
           "id": 10759,
           "name": ""
-        }
-      ]
-    },
-    {
-      "id": "157741",
-      "title": "Landman",
-      "description": "Set in the proverbial boomtowns of West-Texas and a modern-day tale of fortune-seeking in the world of oil rigs, the series is an upstairs/downstairs story of roughnecks and wildcat billionaires that are fueling a boom so big it’s reshaping our climate, our economy and our geopolitics.",
-      "url": "https://www.themoviedb.org/tv/157741",
-      "image": "https://image.tmdb.org/t/p/original/AnLq5YSssNWpiD06iYF69wFiaNh.jpg",
-      "title_original": "Landman",
-      "rating": "8.0",
-      "first_air_date": "2024-11-17",
-      "genres": [
-        {
-          "id": 18,
-          "name": "Drama"
         }
       ]
     },
@@ -206,26 +182,26 @@
       ]
     },
     {
-      "id": "236429",
-      "title": "On Call",
-      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
-      "url": "https://www.themoviedb.org/tv/236429",
-      "image": "https://image.tmdb.org/t/p/original/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
-      "title_original": "On Call",
-      "rating": "7.6",
-      "first_air_date": "2025-01-09",
+      "id": "281666",
+      "title": "Goosebumps: The Vanishing",
+      "description": "When twins Devin and Cece are sent to spend a summer in Gravesend, Brooklyn with their divorced dad, scientist Anthony Brewer, they must band together with new friends to save the neighborhood from a long-dormant threat.",
+      "url": "https://www.themoviedb.org/tv/281666",
+      "image": "https://image.tmdb.org/t/p/original/ajghauMTZ4RKVeISDUzxcMWjXnI.jpg",
+      "title_original": "Goosebumps: The Vanishing",
+      "rating": "8.3",
+      "first_air_date": "2025-01-10",
       "genres": [
-        {
-          "id": 80,
-          "name": "Crime"
-        },
-        {
-          "id": 18,
-          "name": "Drama"
-        },
         {
           "id": 10759,
           "name": ""
+        },
+        {
+          "id": 10765,
+          "name": ""
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
         }
       ]
     },
@@ -278,6 +254,122 @@
       ]
     },
     {
+      "id": "236429",
+      "title": "On Call",
+      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
+      "url": "https://www.themoviedb.org/tv/236429",
+      "image": "https://image.tmdb.org/t/p/original/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
+      "title_original": "On Call",
+      "rating": "7.5",
+      "first_air_date": "2025-01-09",
+      "genres": [
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10759,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "id": "95396",
+      "title": "Severance",
+      "description": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. When a mysterious colleague appears outside of work, it begins a journey to discover the truth about their jobs.",
+      "url": "https://www.themoviedb.org/tv/95396",
+      "image": "https://image.tmdb.org/t/p/original/Rb7sga832Cyqvafd7CqOzbwdK4.jpg",
+      "title_original": "Severance",
+      "rating": "8.4",
+      "first_air_date": "2022-02-17",
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 9648,
+          "name": "Mystery"
+        },
+        {
+          "id": 10765,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "id": "261148",
+      "title": "The Red Ranger Becomes an Adventurer in Another World",
+      "description": "Togo Asagaki was the Red Ranger in a heroic Ranger squad. During their final battle against an evil organization, he gave his life to guarantee their triumph. But fate had other plans, and he found himself reborn in an entirely different world. Embracing his new role as an adventurer, he transforms into Kizuna Red and continues his pursuit of justice, helping those in need.",
+      "url": "https://www.themoviedb.org/tv/261148",
+      "image": "https://image.tmdb.org/t/p/original/ZkvF2ASZD3gLDnn2ZJ7L7RGSBc.jpg",
+      "title_original": "戦隊レッド 異世界で冒険者になる",
+      "rating": "1.0",
+      "first_air_date": "2025-01-12",
+      "genres": [
+        {
+          "id": 10759,
+          "name": ""
+        },
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 10765,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "id": "250307",
+      "title": "The Pitt",
+      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "url": "https://www.themoviedb.org/tv/250307",
+      "image": "https://image.tmdb.org/t/p/original/6fMGktEDXMZZPACJ5cWkVQ6TSte.jpg",
+      "title_original": "The Pitt",
+      "rating": "8.2",
+      "first_air_date": "2025-01-09",
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ]
+    },
+    {
+      "id": "233912",
+      "title": "Guardians of the Dafeng",
+      "description": "Xu Qi’an, a recent police academy graduate, awakens in a strange world filled with Confucians, Taoists, Buddhists, demons, and warlocks. Facing imminent exile to a remote frontier town, he seizes the chance to change his fate by joining a powerful organization of guardians.",
+      "url": "https://www.themoviedb.org/tv/233912",
+      "image": "https://image.tmdb.org/t/p/original/zhIvZOCzwjJdn1Xu2KWikC7Luiq.jpg",
+      "title_original": "大奉打更人",
+      "rating": "7.3",
+      "first_air_date": "2024-12-28",
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10759,
+          "name": ""
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ]
+    },
+    {
       "id": "270487",
       "title": "I Left My A-Rank Party to Help My Former Students Reach the Dungeon Depths!",
       "description": "Not every party treats you like a hero—especially when you’re a lowly red mage like Yuke. So, after years of constant ridicule by his A-rank party members, he ditches them. Searching for a new party, he reunites with former students Marina, Silk, and Rain, and joins their group. But on a quest to conquer the world’s greatest dungeon, they become entangled in chaos that threatens the world.",
@@ -302,35 +394,11 @@
       ]
     },
     {
-      "id": "95396",
-      "title": "Severance",
-      "description": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. When a mysterious colleague appears outside of work, it begins a journey to discover the truth about their jobs.",
-      "url": "https://www.themoviedb.org/tv/95396",
-      "image": "https://image.tmdb.org/t/p/original/lFf6LLrQjYldcZItzOkGmMMigP7.jpg",
-      "title_original": "Severance",
-      "rating": "8.4",
-      "first_air_date": "2022-02-17",
-      "genres": [
-        {
-          "id": 18,
-          "name": "Drama"
-        },
-        {
-          "id": 9648,
-          "name": "Mystery"
-        },
-        {
-          "id": 10765,
-          "name": ""
-        }
-      ]
-    },
-    {
       "id": "95269",
       "title": "Toilet-Bound Hanako-kun",
       "description": "First year high school student and occultist, Nene Yashiro summons \"Hanako-san of the Toilet\" to grant her romantic wishes. She ends up Hanako's spiritual assistant, helping him destroy supernatural beings and change rumors to balance the spirit and human worlds. Along the way, Nene learns about her connection to the spirit world and the dark secrets regarding Hanako's past.",
       "url": "https://www.themoviedb.org/tv/95269",
-      "image": "https://image.tmdb.org/t/p/original/wqB7rst3tJ1o177BjFMgxGIBfRa.jpg",
+      "image": "https://image.tmdb.org/t/p/original/qp2XSpNzopObSPkSAi7sujAsdh3.jpg",
       "title_original": "地縛少年花子くん",
       "rating": "8.6",
       "first_air_date": "2020-01-10",
@@ -346,34 +414,6 @@
         {
           "id": 35,
           "name": "Comedy"
-        }
-      ]
-    },
-    {
-      "id": "261148",
-      "title": "The Red Ranger Becomes an Adventurer in Another World",
-      "description": "Togo Asagaki was the Red Ranger in a heroic Ranger squad. During their final battle against an evil organization, he gave his life to guarantee their triumph. But fate had other plans, and he found himself reborn in an entirely different world. Embracing his new role as an adventurer, he transforms into Kizuna Red and continues his pursuit of justice, helping those in need.",
-      "url": "https://www.themoviedb.org/tv/261148",
-      "image": "https://image.tmdb.org/t/p/original/6Mh3iaUrL4ZPvpmbCJKBICBEbNi.jpg",
-      "title_original": "戦隊レッド 異世界で冒険者になる",
-      "rating": "0.0",
-      "first_air_date": "2025-01-12",
-      "genres": [
-        {
-          "id": 10759,
-          "name": ""
-        },
-        {
-          "id": 16,
-          "name": "Animation"
-        },
-        {
-          "id": 35,
-          "name": "Comedy"
-        },
-        {
-          "id": 10765,
-          "name": ""
         }
       ]
     },
@@ -402,62 +442,18 @@
       ]
     },
     {
-      "id": "250307",
-      "title": "The Pitt",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
-      "url": "https://www.themoviedb.org/tv/250307",
-      "image": "https://image.tmdb.org/t/p/original/6fMGktEDXMZZPACJ5cWkVQ6TSte.jpg",
-      "title_original": "The Pitt",
-      "rating": "8.2",
-      "first_air_date": "2025-01-09",
+      "id": "243083",
+      "title": "Flourished Peony",
+      "description": "He Weifang, the daughter of a merchant, partners with the infamous Jiang Changyang to run a flower business, empowering women and challenging societal norms. As their bond deepens, He Weifang uncovers Jiang Changyang's true identity and is inspired to focus on ventures that benefit the greater good.",
+      "url": "https://www.themoviedb.org/tv/243083",
+      "image": "https://image.tmdb.org/t/p/original/dIaAwoDJtiswzMar1YADdtN1Oau.jpg",
+      "title_original": "国色芳华",
+      "rating": "9.0",
+      "first_air_date": "2025-01-07",
       "genres": [
         {
           "id": 18,
           "name": "Drama"
-        }
-      ]
-    },
-    {
-      "id": "202879",
-      "title": "Star Wars: Skeleton Crew",
-      "description": "Four ordinary kids search for their home planet after getting lost in the Star Wars galaxy.",
-      "url": "https://www.themoviedb.org/tv/202879",
-      "image": "https://image.tmdb.org/t/p/original/srQbJhLRKoAwRrNN5ga7webPHbC.jpg",
-      "title_original": "Star Wars: Skeleton Crew",
-      "rating": "7.2",
-      "first_air_date": "2024-12-02",
-      "genres": [
-        {
-          "id": 10759,
-          "name": ""
-        },
-        {
-          "id": 10765,
-          "name": ""
-        }
-      ]
-    },
-    {
-      "id": "57243",
-      "title": "Doctor Who",
-      "description": "The Doctor is a Time Lord: a 900 year old alien with 2 hearts, part of a gifted civilization who mastered time travel. The Doctor saves planets for a living—more of a hobby actually, and the Doctor's very, very good at it.",
-      "url": "https://www.themoviedb.org/tv/57243",
-      "image": "https://image.tmdb.org/t/p/original/4edFyasCrkH4MKs6H4mHqlrxA6b.jpg",
-      "title_original": "Doctor Who",
-      "rating": "7.5",
-      "first_air_date": "2005-03-26",
-      "genres": [
-        {
-          "id": 10759,
-          "name": ""
-        },
-        {
-          "id": 18,
-          "name": "Drama"
-        },
-        {
-          "id": 10765,
-          "name": ""
         }
       ]
     }

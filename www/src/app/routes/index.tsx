@@ -9,6 +9,7 @@ const Music = lazy(() => import("./topics/music"));
 const Anime = lazy(() => import("./topics/anime"));
 const Manga = lazy(() => import("./topics/manga"));
 const Github = lazy(() => import("./topics/github"));
+const Gitlab = lazy(() => import("./topics/gitlab"));
 
 const routes = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const routes = createBrowserRouter([
   {
     path: "/github",
     element: <Github />,
+  },
+  {
+    path: "/gitlab",
+    element: <Gitlab />,
   },
   {
     path: "*",
