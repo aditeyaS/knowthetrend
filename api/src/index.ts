@@ -1,9 +1,10 @@
 import "dotenv/config";
-import Movie from "./topics/movie";
-import Tv from "./topics/tv";
-import Music from "./topics/music";
-import Anime from "./topics/anime";
-import Manga from "./topics/manga";
+import Movie from "@/topics/movie";
+import Tv from "@/topics/tv";
+import Music from "@/topics/music";
+import Anime from "@/topics/anime";
+import Manga from "@/topics/manga";
+import Github from "@/topics/github";
 
 async function main() {
   console.log("Start");
@@ -15,6 +16,7 @@ async function main() {
     await Movie();
     await Tv();
     await Music();
+    await Github();
   }
   console.log("Complete");
 }

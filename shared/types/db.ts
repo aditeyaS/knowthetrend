@@ -1,1 +1,1 @@
-export type DB = "movie" | "tv" | "music" | "anime" | "manga";
+export type DB = "movie" | "tv" | "music" | "anime" | "manga" | "github";

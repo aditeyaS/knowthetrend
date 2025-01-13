@@ -1,5 +1,5 @@
 import fs from "fs/promises";
-import { DB } from "../../../shared/types";
+import { DB } from "@shared/types";
 
 export default async function UpdateDB(db: DB, jsonObject: any) {
   const path = `../db/${db}.json`;
